@@ -1,0 +1,220 @@
+/**
+ *
+ * -------------------------------------------
+ * Tablet CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 11. Tablet code
+ *
+ *
+------------------------------------ */
+ 
+/* 11.1. Base elements
+==================================== */ 
+
+h1 {
+	font-size: 36px;
+}
+
+/* Archive page */
+.archivepage .widget.first {
+	margin-right: 2%;
+	margin-left: 0!important;
+}
+
+.archivepage .widget.first,
+.archivepage .widget.first + .widget {
+	margin-right: 0;
+	margin-left: 2%;
+	width: 48%;
+}
+
+.archivepage .widget.last {
+	margin: 0;
+	width: 100%;
+}
+
+/* images fix */
+#gk-mainbody img {
+	height: auto!important;
+	max-width: 100%!important;
+}
+
+/* column rules */
+#gk-sidebar > div > .box {
+	float: left!important;
+	width: 50%!important;
+}
+
+.widget-area .col1 { width: 100%; }
+.widget-area .col2 { width: 50%; }
+.widget-area .col3 { width: 33.3%; }
+.widget-area .col4 { width: 50%; }
+.widget-area .col5 { width: 33.3%; }
+.widget-area .col6 { width: 33.3%; }
+
+.widget-area .box.last1 { width: 100%; }
+.widget-area .box.last2 { width: 50%; }
+.widget-area .box.last3 { width: 33.3%; }
+.widget-area .box.last4 { width: 50%; }
+.widget-area .box.last5 { width: 33.3%; }
+
+.widget-area .nth1 {
+	clear: both;
+}
+
+.widget-area .col6.last5.nth4,
+.widget-area .col6.last5.nth5 {
+	width: 50%;
+}
+
+.gk-columns > div {
+	padding: 0 6px;
+}
+
+/* 11.2. Main menu elements
+==================================== */ 
+
+#main-menu {
+	display: none;
+}
+
+#main-menu-mobile {
+	background: transparent url('../images/style1/tablet_menu.png') no-repeat right center;
+	float: right;
+	left: auto;
+	position: relative;
+	top: 0;
+	width: 52px;
+}
+
+#main-menu-mobile > select {
+	border: none;
+	filter: alpha(opacity=0);
+	height: 52px!important;
+	opacity: 0;
+	width: 52px;
+}
+
+/* 11.3. Other
+==================================== */ 
+
+#gk-mainbody-columns > section, 
+#gk-sidebar,
+#gk-inset,
+#gk-content-wrap {
+	width: 100% !important;
+}
+#gk-content-wrap {
+	margin-top: 20px;
+}
+#gk-banner-top {
+	display: none;
+}
+#gk-inset > .box,
+#gk-sidebar > div > .box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px!important;
+}
+#gk-inset,
+#gk-sidebar {
+	padding: 0!important;
+}
+#gk-inset > .box:first-child, 
+#gk-sidebar > div > .box:first-child {
+	padding-top: 10px!important;
+}
+#gk-inset.gk-only-menu {
+	display: none;
+}
+#gk-inset > .box,
+#gk-sidebar > div > .box {
+	border-top: none!important;
+	float: left;
+	margin-top: 0!important;
+	margin-bottom: 30px!important;
+	width: 50%;
+}
+#gk-sidebar > div > .box:nth-child(2n+1) {
+	clear: both!important;
+}
+#gk-inset {
+	clear: both;
+	width: 100%!important;
+}
+#gk-inset > .box,
+#gk-inset > .box.light {
+	float: left;
+	margin: 0 0 30px 0!important;
+	width: 50%;
+}
+
+/* 11.4. Device classes
+==================================== */
+
+.onlyDesktop {
+	display: none!important;
+}
+
+.onlyTablets {
+	display: block!important;
+}
+
+.onlySmartphones {
+	display: none!important;
+}
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;
+}
+
+/* 11.5. Responsive tables
+==================================== */
+
+@media (max-width: 600px) {
+	article .content table {
+		border: 1px solid #eee;
+		border-bottom: none;
+		max-width: 100%!important;
+		width: 100%!important;
+	}
+
+	article .content table thead {
+		display: none;
+	}
+
+	article .content table td {
+		border-top: 1px solid #eee;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		clear: both;
+		display: block;
+		float: right;
+		padding: 5px 0 5px 50%;
+		position: relative;
+		width: 100%;
+	}
+
+	article .content table td:first-child {
+		border-top: none;
+	}
+
+	article .content table tbody tr {
+		border-bottom: 2px solid #eee;
+	}
+
+	article .content table td span.gk-table-label {
+		display: block;
+		font-size: 95%;
+		font-weight: bold;
+		left: 5px;
+		position: absolute;
+	}
+}

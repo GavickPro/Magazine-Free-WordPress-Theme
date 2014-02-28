@@ -1,0 +1,9 @@
+<wpml-config>
+    <admin-texts>
+        <key name="magazine_seo_description" />
+        <key name="magazine_seo_blogname" />
+        <key name="magazine_seo_homepage_desc_value" />
+        <key name="magazine_seo_homepage_keywords_value" />
+        <key name="magazine_template_footer_content" />
+    </admin-texts>   
+</wpml-config>

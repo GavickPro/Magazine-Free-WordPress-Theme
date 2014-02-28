@@ -1,0 +1,27 @@
+[
+	{
+		"groupname": "Navigation Settings",
+		"groupdesc": "Configure theme navigation parameters.",
+		"fields": [
+			{
+				"name": "mainmenu_visible_levels",
+				"type": "Select",
+				"label": "Mainmenu visible levels",
+				"tooltip": "Amount of levels visible in the mainmenu on start",
+				"default": "2",
+				"class": "",
+				"visibility": "",
+				"other": {
+					"options": {
+						"1": "1 level",
+						"2": "2 levels"
+					}
+				}
+			},
+			{
+				"name": "menu",
+				"type": "Menu"
+			}
+		]
+	}
+]

@@ -1,0 +1,53 @@
+/**
+ *
+ * -------------------------------------------
+ * IE code fixes
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 14. IE
+ *
+ *
+------------------------------------ */
+
+/* 14.1. IE8
+==================================== */
+
+.author-avatar img {
+	max-width: none!important;
+	width: auto!important;
+}
+
+.box.badge-new .box-title::after,
+.box.badge-popular .box-title::after,
+.box.badge-top .box-title::after,
+.box.badge-hot .box-title::after {
+	zoom: 1;
+}
+
+.ie8clear {
+	clear: both;
+}
+
+#comments li article > aside img {
+	width: auto!important;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="www"],
+input[type="tel"] {
+	line-height: 1.2!important;
+	padding-top: 8px!important;
+	padding-bottom: 8px!important;
+}
+
+/* image logo fix */
+.imageLogo img {
+	max-width: auto!important;
+	width: auto!important;
+}

@@ -1,0 +1,371 @@
+/**
+ *
+ * -------------------------------------------
+ * Style1
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 15. Style I
+ *
+ *
+------------------------------------ */
+
+/* 15.1. Basic colors
+==================================== */
+
+article a,
+article a {
+	color: #598473;
+}
+a:active,
+a:focus,
+a:hover,
+article header .edit a:active,
+article header .bookmark a:active,
+article header .edit a:focus,
+article header .bookmark a:focus,
+article header .edit a:hover,
+article header .bookmark a:hover,
+.author-info h2 a:active,
+.author-info h2 a:focus,
+.author-info h2 a:hover,
+#gk-mainbody article > header h1 a:active,
+#gk-mainbody article > header h2 a:active,
+#gk-mainbody article > header h1 a:focus,
+#gk-mainbody article > header h2 a:focus,
+#gk-mainbody article > header h1 a:hover,
+#gk-mainbody article > header h2 a:hover {
+	color: #598473;
+}
+.btn,
+button,
+.readon,
+a.gk-button,
+input[type="button"],
+input[type="submit"],
+.nav-btn a {
+	background-color: #598473;
+}
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled],
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+button.disabled,
+input[type="button"].disabled,
+input[type="submit"].disabled,
+a.gk-button:hover,
+a.gk-button:active,
+a.gk-button.active,
+a.gk-button.disabled,
+a.gk-button[disabled],
+.readon:hover,
+.readon:active,
+.readon:focus,
+.nav-btn a:active,
+.nav-btn a:focus,
+.nav-btn a:hover {
+	background-color: #c4c096;
+}
+.btn-more {
+	background-color: #598473;
+}
+.btn-more:active,
+.btn-more:focus,
+.btn-more:hover {
+	background-color: #c4c096;
+}
+#gk-user-area a:active,
+#gk-user-area a:focus,
+#gk-user-area a:hover {
+	background-color: #c4c096;
+}
+#gk-head a.cssLogo {
+	background-color: #598473
+}
+#gk-head a.cssLogo:hover {
+	background-color: #c4c096;
+}
+#gk-head a.textLogo {
+	background: #598473;
+}
+#gk-back-to-top:hover,
+#gk-toolbar a.gk-icon-search:hover,
+#gk-toolbar a.gk-icon-email:hover { background: #598473; }
+#gk-search form {
+	background-color: #598473;
+}
+#gk-search #s {
+	background: #598473;
+	border-bottom-color: #689985;
+}
+#main-menu a:hover,
+#main-menu a:active,
+#main-menu a:focus,
+#main-menu li.active > a {
+	color: #598473;
+}
+#main-menu.menu-lvl-1 li .sub-menu,
+#main-menu.menu-lvl-2 li li .sub-menu {
+	background: #598473;
+}
+#main-menu.menu-lvl-1 li .sub-menu li,
+#main-menu.menu-lvl-2 li li .sub-menu li {
+	border-top: 1px solid #689985;	
+}
+#main-menu.menu-lvl-1 li .sub-menu li:hover,
+#main-menu.menu-lvl-2 ul li .sub-menu li:hover {
+	 background: #375146;
+}
+article header h1 sup,
+article.sticky header h1 sup,
+article header h2 sup,
+article.sticky header h2 sup {
+	background: #c4c096;
+}
+.contactpage .gk-contact-error,
+.contactpage .gk-contact-thanks {
+	background: #598473;
+}
+.contactpage .gk-contact-error {
+	background: #b0504d;
+}
+#gk-popup-login .button-primary { 
+    background: #c4c096;
+}
+#gk-popup-login .button-primary:hover { 
+    background: #598473;
+}
+.box #wp-calendar #today {
+	background: #c4c096;
+}
+.box.tags .tagcloud a {
+	background: #c4c096;
+}
+.box.tags .tagcloud a:active,
+.box.tags .tagcloud a:focus,
+.box.tags .tagcloud a:hover {
+	background: #598473;
+}
+.box.color1 {
+	background: #598473!important;
+}
+.box.color1 ul li {
+	border-bottom: 1px solid #689985;
+}
+.box.color1 a {
+	color: #aeccc0;
+}
+.box.color2 .box-title {
+	color: #598473;
+}
+.box.menu li:hover {
+	background: #598473;
+}
+.gk-nsp-arts-nav li:hover,
+.gk-nsp-arts-nav li.active,
+.gk-nsp-links-nav li:hover,
+.gk-nsp-links-nav li.active {
+	background: #598473;
+}
+.gk-nsp-header a:active,
+.gk-nsp-header a:focus,
+.gk-nsp-header a:hover {
+	color: #598473
+}
+.gk-nsp-art .gk-nsp-info a:active,
+.gk-nsp-art .gk-nsp-info a:focus,
+.gk-nsp-art .gk-nsp-info a:hover {
+	color: #598473;
+}
+.gk-nsp-links ul li h4 a:active,
+.gk-nsp-links ul li h4 a:focus,
+.gk-nsp-links ul li h4 a:hover {
+	color: #598473;
+}
+.color1 .gk-nsp-art p.gk-nsp-info,
+.color1 .gk-nsp-art p.gk-nsp-info a,
+.color1 .gk-nsp-links ul li h4 a,
+.color1 .gk-nsp-art .gk-nsp-header a { 
+	color: #aeccc0; 
+}
+.color1 .gk-nsp-arts-nav li,
+.color1 .gk-nsp-links-nav li { 
+	background: #aeccc0; 
+}
+.headlines .gk-nsp-new-wrap {
+	background-color: #598473;
+}
+.nsphover .gk-image-link .gk-nsp-header {
+	background: #598473;
+	background: rgba(89, 132, 115, 0.85);
+}
+.nsphover .gk-nsp-art .gk-nsp-category {
+	background: #c4c096;
+}
+.nsphover .gk-nsp-hover-overlay {
+	background: #598473;
+}
+.nsphover .gk-nsp-hover-overlay .gk-nsp-text,
+.nsphover .gk-nsp-hover-overlay .gk-nsp-text a {
+	color: #aeccc0;
+}
+.nsphover .gk-nsp-hover-overlay .gk-nsp-header a:active,
+.nsphover .gk-nsp-hover-overlay .gk-nsp-header a:focus,
+.nsphover .gk-nsp-hover-overlay .gk-nsp-header a:hover {
+	color: #aeccc0;
+}
+.gk-tabs-wrap > ol li.active,
+.gk-tabs-wrap > ol li.active:hover{
+	background: #c4c096;
+	border-color: #c4c096!important;
+}
+.gk-tabs-wrap > ol li:hover {
+	color: #598473;
+}
+
+/* Typography */
+
+.gk-note:before,
+.gk-members > strong:first-child {
+	background: #b0504d;
+}
+.gk-members > strong:first-child {
+	background: #c4c096;
+}
+.gk-tooltip[data-style="style2"] dfn {
+	background: #598473;
+}
+.gk-tooltip[data-style="style3"] dfn {
+	background: #b0504d;	
+}
+.gk-tooltip[data-style="style4"] dfn {
+	background: #c4c096;
+}
+.gk-notice {
+	background: #598473 url('../images/style3/typography/tips.png') no-repeat 6px 10px;
+}
+.gk-info {
+	background: #c4c096 url('../images/style3/typography/info.png') no-repeat 6px 8px;
+}
+.gk-warning,
+.gk-error {
+	background: #b0504d url('../images/style3/typography/warning.png') no-repeat 6px 8px;
+}
+.gk-badge,
+.gk-label,
+.gk-badge[data-style="style1"],
+.gk-label[data-style="style1"] {
+	background-color: #598473;
+}
+.gk-badge[data-style="style2"],
+.gk-label[data-style="style2"] {
+	background: #c4c096;
+}
+.gk-badge[data-style="style3"],
+.gk-label[data-style="style3"] {
+	background: #b0504d;
+}
+pre.gk-code[data-style="style2"] {
+	border-left: 4px solid #598473;
+}
+pre.gk-code[data-style="style3"] {
+	border-top: 4px solid #c4c096;
+}
+.gk-numblock[data-style="style3"] span {
+	border: 2px solid #598473;
+	color: #598473;
+}
+.gk-floated {
+	color: #598473;
+}
+blockquote.gk-quote {
+	background-image: url('../images/style3/typography/open1.png');
+}
+blockquote.gk-quote p {
+	background-image: url('../images/style3/typography/close1.png');
+}
+blockquote.gk-quote[data-style="style2"] {
+	background-image: url('../images/style3/typography/open1.png');
+}
+blockquote.gk-quote[data-style="style3"] {
+	background-image: url('../images/style3/typography/open2.png');
+}
+blockquote.gk-quote[data-style="style3"] p {
+	background-image: url('../images/style3/typography/close2.png');
+}
+blockquote.gk-quote[data-style="style4"] {
+	background-image: url('../images/style3/typography/open2.png');
+}
+blockquote.gk-quote[data-style="style4"] p {
+	background-image: url('../images/style3/typography/close2.png');
+}
+article .content ul li,
+article .intro ul li,
+article .summary ul li {
+	background-image: url('../images/style3/typography/bullet1.png')!important;
+}
+article ul[data-style="style2"] li {
+	background-image: url('../images/style3/typography/bullet2.png')!important;
+}
+article ul[data-style="style3"] li {
+	background-image: url('../images/style3/typography/bullet3.png')!important;
+}
+article ul[data-style="style4"] li {
+	background-image: url('../images/style3/typography/bullet4.png')!important;
+}
+.gk-button[data-style="style2"] {
+	background: #c4c096;
+}
+.gk-button[data-style="style2"]:active,
+.gk-button[data-style="style2"]:focus,
+.gk-button[data-style="style2"]:hover {
+	background: #598473;
+}
+.gk-button[data-style="style3"] {
+	background: #b0504d;
+}
+.gk-button[data-style="style3"]:active,
+.gk-button[data-style="style3"]:focus,
+.gk-button[data-style="style3"]:hover {
+	background: #c4c096;
+}
+.gk-button[data-style="style4"] {
+	background: #363636;
+}
+.gk-button[data-style="style4"]:active,
+.gk-button[data-style="style4"]:focus,
+.gk-button[data-style="style4"]:hover {
+	background: #c4c096;
+}
+.gk-legend {
+	border: 2px solid #598473;
+}
+.gk-legend > strong:first-child {
+	color: #598473;
+}
+.gk-legend[data-style="style2"] {
+	border-color: #c4c096;
+}
+.gk-legend[data-style="style2"] > strong:first-child {
+	color: #c4c096;
+}
+
+/* Other details */
+
+#gallery ol li:hover,
+#gallery ol li.active {
+	background: #598473;
+}
+#main-menu-mobile {
+	background-image: url('../images/style3/tablet_menu.png');
+}

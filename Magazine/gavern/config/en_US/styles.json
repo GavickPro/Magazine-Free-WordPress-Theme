@@ -1,0 +1,39 @@
+[
+	{
+		"family": "color",
+		"family_desc": "Theme color",
+		"family_tooltip": "You can select one of the theme colors",
+		"styles": [
+			{
+				"name": "Color I",
+				"value": "color1",
+				"file": "style1.css"
+			},
+			{
+				"name": "Color II",
+				"value": "color2",
+				"file": "style2.css"
+			},
+			{
+				"name": "Color III",
+				"value": "color3",
+				"file": "style3.css"
+			},
+			{
+				"name": "Color IV",
+				"value": "color4",
+				"file": "style4.css"
+			},
+			{
+				"name": "Color V",
+				"value": "color5",
+				"file": "style5.css"
+			},
+			{
+				"name": "Color VI",
+				"value": "color6",
+				"file": "style6.css"
+			}
+		]
+	}
+]

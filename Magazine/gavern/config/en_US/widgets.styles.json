@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Advertisement",
+		"css_class": "advertisement",
+		"exclude": "widget_gk_comments,widget_gk_nsp,widget_gk_tabs"
+	},
+	{
+		"name": "Big title",
+		"css_class": "bigtitle"
+	},
+	{
+		"name": "Color I",
+		"css_class": "color1"
+	},
+	{
+		"name": "Color II",
+		"css_class": "color2"
+	},
+	{
+		"name": "Light",
+		"css_class": "light"
+	},
+	{
+		"name": "Menu",
+		"css_class": "menu"
+	},
+	{
+		"name": "No Border",
+		"css_class": "noborder"
+	},
+	{
+		"name": "Badge top",
+		"css_class": "badge-top"
+	},	
+	{
+		"name": "Badge hot",
+		"css_class": "badge-hot"
+	},	
+	{
+		"name": "Badge popular",
+		"css_class": "badge-popular"
+	},	
+	{
+		"name": "Badge new",
+		"css_class": "badge-new"
+	},	
+	{
+		"name": "Unified style",
+		"css_class": "tags",
+		"for_only": "tag_cloud"
+	},
+	{
+		"name": "Headlines",
+		"css_class": "headlines",
+		"for_only": "widget_gk_nsp"
+	},
+	{
+		"name": "Hover effect",
+		"css_class": "nsphover",
+		"for_only": "widget_gk_nsp"
+	}
+]

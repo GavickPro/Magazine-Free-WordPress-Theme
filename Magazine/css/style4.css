@@ -1,0 +1,371 @@
+/**
+ *
+ * -------------------------------------------
+ * Style1
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 15. Style I
+ *
+ *
+------------------------------------ */
+
+/* 15.1. Basic colors
+==================================== */
+
+article a,
+article a {
+	color: #e8932b;
+}
+a:active,
+a:focus,
+a:hover,
+article header .edit a:active,
+article header .bookmark a:active,
+article header .edit a:focus,
+article header .bookmark a:focus,
+article header .edit a:hover,
+article header .bookmark a:hover,
+.author-info h2 a:active,
+.author-info h2 a:focus,
+.author-info h2 a:hover,
+#gk-mainbody article > header h1 a:active,
+#gk-mainbody article > header h2 a:active,
+#gk-mainbody article > header h1 a:focus,
+#gk-mainbody article > header h2 a:focus,
+#gk-mainbody article > header h1 a:hover,
+#gk-mainbody article > header h2 a:hover {
+	color: #e8932b;
+}
+.btn,
+button,
+.readon,
+a.gk-button,
+input[type="button"],
+input[type="submit"],
+.nav-btn a {
+	background-color: #909090;
+}
+.btn:hover,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled],
+button:hover,
+input[type="button"]:hover,
+input[type="submit"]:hover,
+button:active,
+input[type="button"]:active,
+input[type="submit"]:active,
+button.disabled,
+input[type="button"].disabled,
+input[type="submit"].disabled,
+a.gk-button:hover,
+a.gk-button:active,
+a.gk-button.active,
+a.gk-button.disabled,
+a.gk-button[disabled],
+.readon:hover,
+.readon:active,
+.readon:focus,
+.nav-btn a:active,
+.nav-btn a:focus,
+.nav-btn a:hover {
+	background-color: #e8932b;
+}
+.btn-more {
+	background-color: #909090;
+}
+.btn-more:active,
+.btn-more:focus,
+.btn-more:hover {
+	background-color: #e8932b;
+}
+#gk-user-area a:active,
+#gk-user-area a:focus,
+#gk-user-area a:hover {
+	background-color: #e8932b;
+}
+#gk-head a.cssLogo {
+	background-color: #909090
+}
+#gk-head a.cssLogo:hover {
+	background-color: #e8932b;
+}
+#gk-head a.textLogo {
+	background: #909090;
+}
+#gk-back-to-top:hover,
+#gk-toolbar a.gk-icon-search:hover,
+#gk-toolbar a.gk-icon-email:hover { background: #909090; }
+#gk-search form {
+	background-color: #909090;
+}
+#gk-search #s {
+	background: #909090;
+	border-bottom-color: #a0a0a0;
+}
+#main-menu a:hover,
+#main-menu a:active,
+#main-menu a:focus,
+#main-menu li.active > a {
+	color: #e8932b;
+}
+#main-menu.menu-lvl-1 li .sub-menu,
+#main-menu.menu-lvl-2 li li .sub-menu {
+	background: #909090;
+}
+#main-menu.menu-lvl-1 li .sub-menu li,
+#main-menu.menu-lvl-2 li li .sub-menu li {
+	border-top: 1px solid #a0a0a0;	
+}
+#main-menu.menu-lvl-1 li .sub-menu li:hover,
+#main-menu.menu-lvl-2 ul li .sub-menu li:hover {
+	 background: #707070;
+}
+article header h1 sup,
+article.sticky header h1 sup,
+article header h2 sup,
+article.sticky header h2 sup {
+	background: #e8932b;
+}
+.contactpage .gk-contact-error,
+.contactpage .gk-contact-thanks {
+	background: #909090;
+}
+.contactpage .gk-contact-error {
+	background: #e85c2b;
+}
+#gk-popup-login .button-primary { 
+    background: #e8932b;
+}
+#gk-popup-login .button-primary:hover { 
+    background: #909090;
+}
+.box #wp-calendar #today {
+	background: #e8932b;
+}
+.box.tags .tagcloud a {
+	background: #e8932b;
+}
+.box.tags .tagcloud a:active,
+.box.tags .tagcloud a:focus,
+.box.tags .tagcloud a:hover {
+	background: #909090;
+}
+.box.color1 {
+	background: #909090!important;
+}
+.box.color1 ul li {
+	border-bottom: 1px solid #a0a0a0;
+}
+.box.color1 a {
+	color: #dadada;
+}
+.box.color2 .box-title {
+	color: #909090;
+}
+.box.menu li:hover {
+	background: #909090;
+}
+.gk-nsp-arts-nav li:hover,
+.gk-nsp-arts-nav li.active,
+.gk-nsp-links-nav li:hover,
+.gk-nsp-links-nav li.active {
+	background: #909090;
+}
+.gk-nsp-header a:active,
+.gk-nsp-header a:focus,
+.gk-nsp-header a:hover {
+	color: #909090
+}
+.gk-nsp-art .gk-nsp-info a:active,
+.gk-nsp-art .gk-nsp-info a:focus,
+.gk-nsp-art .gk-nsp-info a:hover {
+	color: #909090;
+}
+.gk-nsp-links ul li h4 a:active,
+.gk-nsp-links ul li h4 a:focus,
+.gk-nsp-links ul li h4 a:hover {
+	color: #909090;
+}
+.color1 .gk-nsp-art p.gk-nsp-info,
+.color1 .gk-nsp-art p.gk-nsp-info a,
+.color1 .gk-nsp-links ul li h4 a,
+.color1 .gk-nsp-art .gk-nsp-header a { 
+	color: #dadada; 
+}
+.color1 .gk-nsp-arts-nav li,
+.color1 .gk-nsp-links-nav li { 
+	background: #dadada; 
+}
+.headlines .gk-nsp-new-wrap {
+	background-color: #909090;
+}
+.nsphover .gk-image-link .gk-nsp-header {
+	background: #909090;
+	background: rgba(144, 144, 144, 0.85);
+}
+.nsphover .gk-nsp-art .gk-nsp-category {
+	background: #e8932b;
+}
+.nsphover .gk-nsp-hover-overlay {
+	background: #909090;
+}
+.nsphover .gk-nsp-hover-overlay .gk-nsp-text,
+.nsphover .gk-nsp-hover-overlay .gk-nsp-text a {
+	color: #dadada;
+}
+.nsphover .gk-nsp-hover-overlay .gk-nsp-header a:active,
+.nsphover .gk-nsp-hover-overlay .gk-nsp-header a:focus,
+.nsphover .gk-nsp-hover-overlay .gk-nsp-header a:hover {
+	color: #dadada;
+}
+.gk-tabs-wrap > ol li.active,
+.gk-tabs-wrap > ol li.active:hover{
+	background: #e8932b;
+	border-color: #e8932b!important;
+}
+.gk-tabs-wrap > ol li:hover {
+	color: #909090;
+}
+
+/* Typography */
+
+.gk-note:before,
+.gk-members > strong:first-child {
+	background: #e85c2b;
+}
+.gk-members > strong:first-child {
+	background: #e8932b;
+}
+.gk-tooltip[data-style="style2"] dfn {
+	background: #909090;
+}
+.gk-tooltip[data-style="style3"] dfn {
+	background: #e85c2b;	
+}
+.gk-tooltip[data-style="style4"] dfn {
+	background: #e8932b;
+}
+.gk-notice {
+	background: #909090 url('../images/style4/typography/tips.png') no-repeat 6px 10px;
+}
+.gk-info {
+	background: #e8932b url('../images/style4/typography/info.png') no-repeat 6px 8px;
+}
+.gk-warning,
+.gk-error {
+	background: #e85c2b url('../images/style4/typography/warning.png') no-repeat 6px 8px;
+}
+.gk-badge,
+.gk-label,
+.gk-badge[data-style="style1"],
+.gk-label[data-style="style1"] {
+	background-color: #909090;
+}
+.gk-badge[data-style="style2"],
+.gk-label[data-style="style2"] {
+	background: #e8932b;
+}
+.gk-badge[data-style="style3"],
+.gk-label[data-style="style3"] {
+	background: #e85c2b;
+}
+pre.gk-code[data-style="style2"] {
+	border-left: 4px solid #909090;
+}
+pre.gk-code[data-style="style3"] {
+	border-top: 4px solid #e8932b;
+}
+.gk-numblock[data-style="style3"] span {
+	border: 2px solid #909090;
+	color: #909090;
+}
+.gk-floated {
+	color: #909090;
+}
+blockquote.gk-quote {
+	background-image: url('../images/style4/typography/open1.png');
+}
+blockquote.gk-quote p {
+	background-image: url('../images/style4/typography/close1.png');
+}
+blockquote.gk-quote[data-style="style2"] {
+	background-image: url('../images/style4/typography/open1.png');
+}
+blockquote.gk-quote[data-style="style3"] {
+	background-image: url('../images/style4/typography/open2.png');
+}
+blockquote.gk-quote[data-style="style3"] p {
+	background-image: url('../images/style4/typography/close2.png');
+}
+blockquote.gk-quote[data-style="style4"] {
+	background-image: url('../images/style4/typography/open2.png');
+}
+blockquote.gk-quote[data-style="style4"] p {
+	background-image: url('../images/style4/typography/close2.png');
+}
+article .content ul li,
+article .intro ul li,
+article .summary ul li {
+	background-image: url('../images/style4/typography/bullet1.png')!important;
+}
+article ul[data-style="style2"] li {
+	background-image: url('../images/style4/typography/bullet2.png')!important;
+}
+article ul[data-style="style3"] li {
+	background-image: url('../images/style4/typography/bullet3.png')!important;
+}
+article ul[data-style="style4"] li {
+	background-image: url('../images/style4/typography/bullet4.png')!important;
+}
+.gk-button[data-style="style2"] {
+	background: #e8932b;
+}
+.gk-button[data-style="style2"]:active,
+.gk-button[data-style="style2"]:focus,
+.gk-button[data-style="style2"]:hover {
+	background: #909090;
+}
+.gk-button[data-style="style3"] {
+	background: #e85c2b;
+}
+.gk-button[data-style="style3"]:active,
+.gk-button[data-style="style3"]:focus,
+.gk-button[data-style="style3"]:hover {
+	background: #e8932b;
+}
+.gk-button[data-style="style4"] {
+	background: #363636;
+}
+.gk-button[data-style="style4"]:active,
+.gk-button[data-style="style4"]:focus,
+.gk-button[data-style="style4"]:hover {
+	background: #e8932b;
+}
+.gk-legend {
+	border: 2px solid #909090;
+}
+.gk-legend > strong:first-child {
+	color: #909090;
+}
+.gk-legend[data-style="style2"] {
+	border-color: #e8932b;
+}
+.gk-legend[data-style="style2"] > strong:first-child {
+	color: #e8932b;
+}
+
+/* Other details */
+
+#gallery ol li:hover,
+#gallery ol li.active {
+	background: #909090;
+}
+#main-menu-mobile {
+	background-image: url('../images/style4/tablet_menu.png');
+}

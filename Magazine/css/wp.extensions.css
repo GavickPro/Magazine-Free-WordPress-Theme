@@ -1,0 +1,502 @@
+/**
+ *
+ * -------------------------------------------
+ * WP Extensions CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 8. Additional WP extensions styles
+ *
+ *
+------------------------------------ */
+
+/* 8.1. Archives widget
+==================================== */
+
+/* 8.2. Custom menu widget
+==================================== */
+
+/* 8.3. Pages widget
+==================================== */
+
+/* 8.4. RSS widget
+==================================== */
+
+.box h3.box-title .rsswidget {
+	clear: none;
+	float: left;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.box .rsswidget {
+	clear: both;
+	display: block;
+	font-size: 15px;
+}
+
+.box .rss-date {
+	clear: both;
+	display: block;
+	font-size: 11px;
+	font-style: italic;
+	margin-top: -10px;
+	text-align: right;
+}
+
+.box .rssSummary {
+	clear: both;
+	color: #888;
+	font-size: 13px;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+.box.widget_rss cite {
+	font-size: 12px;
+}
+
+.box.widget_rss li {
+	padding: 14px 0;
+}
+
+/* 8.5. Text widget
+==================================== */
+
+#gk-header .box.widget_text {
+	padding: 0!important;
+}
+
+#gk-header .box.widget_text img {
+	height: auto;
+	max-width: 100%;
+}
+
+/* 8.6. Calendar widget
+==================================== */
+
+.box #wp-calendar {
+	background: #fff;
+	width: 100%;
+}
+
+.box #wp-calendar caption {
+	background: #fff;
+	border: 1px solid #eee;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 5px 0;
+}
+
+.box #wp-calendar th {
+	background: #333;
+	color: #fff;
+	font-weight: normal;
+	padding: 5px 0;
+}
+
+.box #wp-calendar td {
+	border: 1px solid #eee;
+	padding: 5px 0;
+	text-align: center;
+}
+
+.box #wp-calendar td a {
+	font-weight: bold;
+}
+
+.box #wp-calendar #today {
+	background: #FEC64D;
+	color: #fff;
+}
+
+.box #wp-calendar #today a {
+	color: #fff;
+}
+
+/* 8.7. Links widget
+==================================== */
+
+.box ul.xoxo a {
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.box ul.xoxo a img {
+	vertical-align: middle;
+}
+
+.box ul.xoxo li {
+	font-size: 10px;
+	padding: 5px 0;
+}
+
+/* 8.8. Recent comments widget
+==================================== */
+
+/* 8.9. Search widget
+==================================== */
+ 
+.box #searchform label,
+.box #searchform #searchsubmit {
+	display: none;
+}
+
+.box #searchform .field {
+	width: 100%;
+}
+
+#gk-search .box-title,
+#gk-search label,
+#gk-search #searchsubmit {
+	display: none;
+}
+#gk-search #s {
+	color: #fff;
+}
+#gk-search #s::-webkit-input-placeholder { 
+    color: #fff;
+}
+#gk-search #s:-moz-placeholder {     
+	color: #fff;
+}
+#gk-search #s::-moz-placeholder { 
+    color: #fff;
+}
+#gk-search #s:-ms-input-placeholder { 
+    color: #fff;
+} 
+
+/* 8.10. Categories widget
+==================================== */
+
+/* 8.11. Meta widget
+==================================== */
+
+/* 8.12. Recent posts widget
+==================================== */
+
+/* 8.13. Tag cloud widget
+==================================== */
+
+.box.tags .tagcloud {
+	overflow: hidden;
+}
+
+.box.tags .tagcloud a {
+	background: #FEC64D;
+	color: #fff;
+	display: block;
+	float: left;
+	font-size: 10px!important;
+	font-weight: 600;
+	height: auto;
+	line-height: normal;
+	margin: 3px;
+	padding: 10px;
+	text-transform: uppercase;
+	-webkit-transition: all .1s ease-out;
+	-moz-transition: all .1s ease-out;
+	-o-transition: all .1s ease-out;
+	transition: all 0.1s ease-out;
+}
+
+.box.tags .tagcloud a:active,
+.box.tags .tagcloud a:focus,
+.box.tags .tagcloud a:hover {
+	background: #4d90fe;
+}
+
+/* 8.14. Common widget styles
+==================================== */
+
+/* Modules */
+.box {
+	margin-bottom: 20px;
+}
+
+#gk-header .box {
+	margin-bottom: 0!important;
+}
+
+.box ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+.box ul li {
+	line-height: 1.5;
+	padding: 5px 0;
+}
+
+.box .box-title {
+	margin-bottom: 0;
+}
+
+#gk-bottom .box a {
+	color: #777;
+}
+
+#gk-bottom .box a:active,
+#gk-bottom .box a:focus,
+#gk-bottom .box a:hover {
+	color: #333;
+}
+#gk-bottom .box ul li {
+	line-height: 2;
+	padding: 0;
+}
+
+/* Advertisement style */
+#gk-inset .box.advertisement,
+#gk-sidebar .box.advertisement {
+	border-top: none;
+}
+
+.box.advertisement .box-title {
+	background: transparent;
+	border-bottom: 1px solid #e5e5e5;
+	color: #999!important;
+	font-size: 10px!important;
+	font-weight: 300;
+	line-height: 16px;
+	margin: 0 0 5px 0;
+	min-height: 16px;
+	padding: 0;
+	text-align: right;
+	text-transform: uppercase;
+	line-height: 16px;
+	font-family: Arial, Verdana, sans-serif!important;
+}
+
+/* Style bigtitle */
+.box.bigtitle .box-title {
+	font-size: 26px;
+	font-weight: 300;
+}
+
+/* Style clear */
+.box.clear {
+	border: none!important;
+	margin: 0!important;
+	padding: 0!important;
+}
+
+/* Style color1 */
+.box.color1 {
+	background: #4d90fe!important;
+	color: #fff;
+	padding: 20px!important;
+}
+
+.box.color1 .box-title {
+	background: transparent!important;
+	line-height: 1.2;
+}
+
+.box.color1 h1,
+.box.color1 h2,
+.box.color1 h3,
+.box.color1 h4,
+.box.color1 h5,
+.box.color1 h6 {
+	color: #fff;
+}
+
+.box.color1 ul {
+	margin: 0;
+	padding: 0;
+}
+
+.box.color1 ul li {
+	border-bottom: 1px solid #659fff;
+	position: relative;
+}
+
+.box.color1 ul li:last-child {
+	border-bottom: none;
+}
+
+.box.color1 a {
+	color: #c7dcff;
+}
+
+.box.color1 a:active,
+.box.color1 a:focus,
+.box.color1 a:hover {
+	color: #fff;
+}
+
+.box.color1 ul ul {
+	margin: 0 0 0 20px;
+}
+
+.box.color1 b,
+.box.color1 strong {
+	font-weight: bold;
+}
+
+/* Style color2 */
+.box.color2 .box-title {
+	color: #4d90fe;
+}
+
+/* Style light */
+.box.light {
+	background: #F6F7F9!important;
+	border-top: none!important;
+	padding: 20px!important;
+}
+
+.box.light ul {
+	margin: 0;
+	padding: 0;
+}
+
+.box.light ul li {
+	position: relative;
+}
+
+.box.light ul ul {
+	margin: 0 0 0 20px;
+}
+
+.box.light b,
+.box.light strong {
+	font-weight: bold;
+}
+
+/* Style menu*/
+.box.menu ul ul {
+	margin-left: 0
+}
+
+.box.menu li {
+	border-bottom: none!important;
+	margin: 0;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+.box.menu .box-title + ul > li:first-child {
+	border-top: none;
+}
+
+.box.menu li a {
+	color: #363636;
+	display: block;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+.box.menu li:hover {
+	background: #4d90fe;
+	padding-left: 20px;
+}
+
+.box.menu li:hover a {
+	color: #fff;
+}
+
+/* Style noborder */
+.box.noborder {
+	border-top: none!important;
+}
+
+/* Badges */
+.box.badge-new .box-title,
+.box.badge-popular .box-title,
+.box.badge-top .box-title,
+.box.badge-hot .box-title {
+	position: relative;
+}
+
+.box.badge-new .box-title::after,
+.box.badge-popular .box-title::after,
+.box.badge-top .box-title::after,
+.box.badge-hot .box-title::after {
+	background: #9eb931;
+	color: #fff;
+	content: "New";
+	font-size: 10px;
+	font-weight: 400;
+	padding: 0 4px;
+	position: absolute;
+	right: 0;
+	top: 0;
+    text-transform: uppercase;
+	z-index: 1;
+}
+
+.box.badge-popular .box-title::after {
+	background: #fe724d;
+	content: "Popular";
+}
+
+.box.badge-top .box-title::after {
+	background: #4d90fe;
+	content: "Top";
+}
+
+.box.badge-hot .box-title::after {
+	background: #fec64d;
+	content: "Hot";
+}
+
+/* Style gk-advert */
+.gk-advert .content {
+	background: #91c46c;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 800;
+	padding: 23px 42px;
+	text-transform: uppercase;
+	text-align: center;
+	-webkit-transition: all .4s ease-out;
+	-moz-transition: all .4s ease-out;
+	-ms-transition: all .4s ease-out;
+	-o-transition: all .4s ease-out;
+	transition: all .4s ease-out;
+	
+}
+.gk-advert .content:hover {
+	background: #35353A;
+}
+#gk-sidebar .box.gk-advert {
+	margin-bottom: 20px;
+}
+.gk-advert a,
+.gk-advert a:hover,
+.gk-advert a:active { color: #fff; }
+.gk-advert a span {
+	opacity: 0.98;
+	clear: both;
+	font-size: 11px;
+	display: block;
+	font-weight: 500;
+	line-height: 0.7;
+}
+
+/* nomargin */
+#gk-top1 .box,
+#gk-top2 .box {
+	padding: 0 10px;
+}
+.box.nomargin {
+	margin-left: 0!important;
+	margin-right: 0!important;
+}
+
+.box.col6 {
+	padding: 0 10px;
+}

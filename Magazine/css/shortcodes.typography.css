@@ -1,0 +1,489 @@
+/**
+ *
+ * -------------------------------------------
+ * Shortcodes - typography elements - CSS file
+ * -------------------------------------------
+ *
+ **/
+
+/*
+ *
+ * 6. Shortcodes
+ *
+ *
+------------------------------------ */
+
+/* 6.1. Typography elements
+==================================== */
+
+.gk-warning,
+.gk-notice,
+.gk-info,
+.gk-error,
+.gk-thanks { /* Common rules for all these types */
+	color: #fff;
+	font-size: 16px;
+	line-height: 1.6;
+	min-height: 50px;
+	padding: 10px 10px 12px 86px;
+}
+
+/* Notices */
+.gk-notice {
+	background: #4d90fe url('../images/style1/typography/tips.png') no-repeat 6px 10px;
+}
+
+/* Infos */
+.gk-info {
+	background: #fec64d url('../images/style1/typography/info.png') no-repeat 6px 8px;
+}
+
+/* Errors */
+.gk-warning,
+.gk-error {
+	background: #fe724d url('../images/style1/typography/warning.png') no-repeat 6px 8px;
+}
+
+/* Labels & badges */
+.gk-badge,
+.gk-label,
+.gk-badge[data-style="style1"],
+.gk-label[data-style="style1"] {
+	background-color: #4d90fe;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 14px;
+	padding: 1px 4px 2px;
+	vertical-align: baseline;
+	white-space: nowrap;
+}
+
+.gk-badge,
+.gk-badge[data-style="style1"] {
+	padding: 1px 4px 2px 4px;
+}
+
+.gk-badge[data-style="style2"],
+.gk-label[data-style="style2"] {
+	background: #fec64d;
+}
+
+.gk-badge[data-style="style3"],
+.gk-label[data-style="style3"] {
+	background: #fe724d;
+}
+
+.gk-badge[data-style="style4"],
+.gk-label[data-style="style4"] {
+	background: #363636;
+}
+
+/* Code listings */
+pre.gk-code {
+	background: #fafafa;
+	border: 1px solid #e5e5e5;
+	color: #666;
+	display: block;
+	font: normal .92em/32px 'Curier New',monospace!important;
+	margin: 20px 0!important;
+	padding: 26px 30px!important;
+}
+
+pre.gk-code[data-style="style2"] {
+	border-left: 4px solid #4d90fe;
+}
+
+pre.gk-code[data-style="style3"] {
+	border-top: 4px solid #FEC64D;
+}
+
+/* Text blocks */
+.gk-textblock,
+.gk-textblock[data-style="style1"] {
+	border: 1px solid #e5e5e5;
+	margin: 20px 0;
+	padding: 15px 20px;
+}
+
+.gk-textblock[data-style="style2"] {
+	background: #FFFEF4;
+	border: 1px solid #EAE8CC;
+}
+
+.gk-textblock[data-style="style3"] {
+	background: #f8f8f8;
+	border: none;
+}
+
+.gk-numblock {
+	margin: 20px 0;
+	min-height: 56px;
+	padding: 0 0 0 65px !important;
+	position: relative;
+}
+
+.gk-numblock span,
+.gk-numblock[data-style="style1"] span {
+	border: 2px solid #ccc;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	border-radius: 50%;
+	color: #ccc;
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	height: 42px;
+	left: 0;
+	line-height: 42px;
+	position: absolute;
+	text-align: center;
+	top: 4px;
+	width: 42px;
+}
+
+.gk-numblock[data-style="style2"] span {
+	border: 2px solid #242424;
+	color: #242424;
+}
+
+.gk-numblock[data-style="style3"] span {
+	border: 2px solid #4d90fe;
+	color: #4d90fe;
+}
+
+.gk-floated {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #4d90fe;
+	display: block;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: 300;
+	line-height: 150%;
+	padding: 30px;
+	width: 38%;
+}
+
+.gk-floated[data-align="left"] {
+	float: left;
+}
+
+.gk-floated[data-align="right"] {
+	float: right;
+}
+
+.gk-floated[data-align="center"] {
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+
+/* Blockquote */
+blockquote.gk-quote {
+	background: url('../images/style1/typography/open1.png') no-repeat left bottom;
+	margin: 20px 0;
+	overflow: hidden;
+	padding: 0 0 0 20px;
+}
+
+blockquote.gk-quote p {
+	background: url('../images/style1/typography/close1.png') no-repeat top right;
+	margin: 0 0 10px 0;
+	padding: 0 20px 0 0;
+}
+
+blockquote.gk-quote cite {
+	color: #aaa;
+	float: right;
+	font-size: 11px;
+	font-style: italic;
+}
+
+blockquote.gk-quote[data-style="style2"] {
+	background: url('../images/style1/typography/open1.png') no-repeat left top;
+}
+
+blockquote.gk-quote[data-style="style3"] {
+	background: url('../images/style1/typography/open2.png') no-repeat left bottom;
+	padding: 0 0 0 30px;
+}
+
+blockquote.gk-quote[data-style="style3"] p {
+	background: url('../images/style1/typography/close2.png') no-repeat top right;
+	padding: 0 30px 0 0;
+}
+
+blockquote.gk-quote[data-style="style4"] {
+	background: url('../images/style1/typography/open2.png') no-repeat left top;
+	padding: 0 0 0 30px;
+}
+
+blockquote.gk-quote[data-style="style4"] p {
+	background: url('../images/style1/typography/close2.png') no-repeat top right;
+	padding: 0 30px 0 0;
+}
+
+/* Lists */
+article .intro ol,
+article .content ol,
+article .summary ol,
+article .intro ul,
+article .content ul,
+article .summary ul {
+	list-style-type: none;
+	margin: 10px 0;
+}
+
+article .intro ol,
+article .content ol,
+article .summary ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+	margin-left: 10px;
+}
+
+article .intro ol li,
+article .content ol li,
+article .summary ol li,
+article .intro ul li,
+article .content ul li,
+article .summary ul li {
+	line-height: 25px;
+	padding-left: 20px;
+	position: relative;
+}
+
+article .intro ol li,
+article .content ol li,
+article .summary ol li {
+	padding-left: 0;
+}
+
+article ol[data-style="style2"] {
+	list-style-type: lower-alpha;
+}
+
+article ol[data-style="style3"] {
+	list-style-type: decimal-leading-zero;
+}
+
+article ol[data-style="style4"] {
+	list-style-type: upper-roman;
+}
+
+article .intro ul li,
+article .content ul li,
+article .summary ul li {
+	line-height: 1.8em!important;
+	list-style: none;
+	margin: 0!important;
+	overflow: inherit;
+	padding: 2px 0 2px 28px;
+}
+
+article .content ul li,
+article .intro ul li,
+article .summary ul li {
+	background: url('../images/style1/typography/bullet1.png') no-repeat 0 10px!important;
+}
+
+article ul[data-style="style2"] li {
+	background: url('../images/style1/typography/bullet2.png') no-repeat 0 10px!important;
+}
+
+article ul[data-style="style3"] li {
+	background: url('../images/style1/typography/bullet3.png') no-repeat 0 10px!important;
+}
+
+article ul[data-style="style4"] li {
+	background: url('../images/style1/typography/bullet4.png') no-repeat 0 10px!important;
+}
+
+/* buttons */
+a.gk-button[data-style="style1"],
+a.gk-button[data-style="style1"]:active,
+a.gk-button[data-style="style1"]:focus,
+a.gk-button[data-style="style1"]:hover {
+	color: #fff!important;	
+}
+a.gk-button:active,
+a.gk-button:focus,
+a.gk-button:hover {
+	color: #fff!important;
+}
+.gk-button[data-style="style1"],
+.gk-button[data-style="style2"],
+.gk-button[data-style="style3"],
+.gk-button[data-style="style4"] {
+	color: #fff;
+}
+
+.gk-button[data-style="style2"] {
+	background: #fec64d;
+}
+
+.gk-button[data-style="style2"]:active,
+.gk-button[data-style="style2"]:focus,
+.gk-button[data-style="style2"]:hover {
+	background: #4d90fe;
+}
+
+.gk-button[data-style="style3"] {
+	background: #fe724d;
+}
+
+.gk-button[data-style="style3"]:active,
+.gk-button[data-style="style3"]:focus,
+.gk-button[data-style="style3"]:hover {
+	background: #fec64d;
+}
+
+.gk-button[data-style="style4"] {
+	background: #363636;
+}
+
+.gk-button[data-style="style4"]:active,
+.gk-button[data-style="style4"]:focus,
+.gk-button[data-style="style4"]:hover {
+	background: #fec64d;
+}
+
+/* Legends */
+.gk-legend {
+	border: 2px solid #4d90fe;
+	margin: 25px 0;
+	padding: 10px 15px;
+	position: relative;
+}
+
+.gk-legend > strong:first-child {
+	background: #fff;
+	color: #4d90fe;
+	left: 20px;
+	padding: 0 5px;
+	position: absolute;
+	top: -18px;
+}
+
+.gk-legend[data-style="style2"] {
+	border-color: #fec64d;
+}
+
+.gk-legend[data-style="style2"] > strong:first-child {
+	color: #fec64d;
+}
+
+/* Columns */
+
+.gk-columns {
+	margin: 10px 0;
+	overflow: hidden;
+	width: 100%;	
+}
+
+.gk-columns > div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	padding: 0 12px;
+}
+
+.gk-columns > div:first-child {
+	padding-left: 0;
+}
+
+.gk-columns > div:last-child {
+	padding-right: 0;
+}
+
+.gk-columns[data-column-count="1"] > div {
+	padding: 0;
+	width: 100%;
+}
+
+.gk-columns[data-column-count="2"] > div {
+	width: 50%;
+}
+
+.gk-columns[data-column-count="3"] > div {
+	width: 33.3%;
+}
+
+.gk-columns[data-column-count="4"] > div {
+	width: 25%;
+}
+
+.gk-columns[data-column-count="5"] > div {
+	width: 20%;
+}
+
+.gk-columns[data-column-count="6"] > div {
+	width: 16.66%;
+}
+
+.gk-columns[data-column-count="7"] > div {
+	width: 14.28%;
+}
+
+.gk-columns[data-column-count="8"] > div {
+	width: 12.5%;
+}
+
+/* Raw text */
+.gk-raw {
+	background: #fafafa;
+	border: 1px solid #f0f0f0;
+	color: #444;
+	margin: 10px 0;
+	padding: 10px 15px;
+	position: relative;
+}
+
+/* Icons */
+.gkfile1,
+.gkfile2,
+.gklink,
+.gkinfo,
+.gkpin,
+.gksettings,
+.gkmic,
+.gkbook,
+.gkmap,
+.gktag,
+.gkstats,
+.gkvoice,
+.gkvideo,
+.gklocked,
+.gkunlocked,
+.gklocation,
+.gkcomment,
+.gkalarm {
+	background-position: 0 8px!important;
+	background-repeat: no-repeat!important;
+	min-height: 38px!important;
+	padding: 0 0 2px 52px !important;
+}
+.gkfile1 { background: url('../images/style1/typography/icons/file1.png'); }
+.gkfile2 { background: url('../images/style1/typography/icons/file2.png'); }
+.gklink { background: url('../images/style1/typography/icons/link.png'); }
+.gkinfo { background: url('../images/style1/typography/icons/info.png'); }
+.gkpin { background: url('../images/style1/typography/icons/pin.png'); }
+.gksettings { background: url('../images/style1/typography/icons/settings.png'); }
+.gkmic { background: url('../images/style1/typography/icons/mic.png'); }
+.gkbook { background: url('../images/style1/typography/icons/book.png'); }
+.gkmap { background: url('../images/style1/typography/icons/map.png'); }
+.gktag { background: url('../images/style1/typography/icons/tag.png'); }
+.gkstats { background: url('../images/style1/typography/icons/stats.png'); }
+.gkvoice { background: url('../images/style1/typography/icons/voice.png'); }
+.gkvideo { background: url('../images/style1/typography/icons/video.png'); }
+.gklocked { background: url('../images/style1/typography/icons/locked.png'); }
+.gkunlocked { background: url('../images/style1/typography/icons/unlocked.png'); }
+.gklocation { background: url('../images/style1/typography/icons/location.png'); }
+.gkcomment { background: url('../images/style1/typography/icons/comment.png'); }
+.gkalarm { background: url('../images/style1/typography/icons/alarm.png'); }

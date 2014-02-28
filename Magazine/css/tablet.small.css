@@ -1,0 +1,46 @@
+/**
+ *
+ * -------------------------------------------
+ * Small Tablet CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 12. Small Tablet code
+ *
+ *
+------------------------------------ */
+ 
+/* 12.1. Base elements
+==================================== */ 
+
+body {
+	font-size: 15px;
+} 
+
+#gk-content-wrap {
+	width: 100%!important;
+}
+
+.nsphover .gk-nsp-hover-overlay {
+	display: none;
+}
+
+#gk-content-wrap > section:first-child {
+	padding-top: 20px;
+}
+
+article header h1,
+article header h2 {
+	font-size: 32px!important;
+	line-height: 32px!important;
+}
+
+article header h1 sup, 
+article.sticky header h1 sup, 
+article header h2 sup, 
+article.sticky header h2 sup {
+	top: -1.5em;
+}

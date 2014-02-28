@@ -1,0 +1,395 @@
+/**
+ *
+ * -------------------------------------------
+ * Mobile CSS file
+ * -------------------------------------------
+ * 
+ **/
+ 
+/*
+ *
+ * 13. Mobile code
+ *
+ *
+------------------------------------ */
+ 
+/* 13.1. Base elements
+==================================== */ 
+
+.gk-page,
+#gk-footer {
+	padding: 0 10px!important;
+}
+
+#gk-bottom1,
+#gk-bottom2 {
+	padding: 0!important;
+	margin: 0!important;
+}
+
+#gk-content-wrap {
+	padding-top: 10px;
+}
+
+/* archive / page 404 */
+.page404 .widget,
+.archivepage .widget {
+	margin: 0!important;
+	padding: 10px 5px;
+	width: 100%!important;
+}
+
+/* images fix */
+#gk-mainbody img {
+	height: auto!important;
+	max-width: 100%!important;
+}
+
+/* column rules */
+#gk-inset > .box,
+#gk-sidebar > div > .box,
+#gk-bottom1 .box,
+#gk-bottom2 .box {
+	width: 100%!important;
+	clear: both!important;
+	float: none!important;
+	margin: 0 auto!important;
+	max-width: 320px!important;
+}
+#gk-bottom1 .box,
+#gk-bottom2 .box {
+	margin-bottom: 20px!important;	
+}
+#gk-sidebar > div {
+	margin-top: 20px!important;
+	padding-top: 25px!important;
+}
+#gk-sidebar > div > .box {
+	float: none;
+	margin-top: 0!important;
+	margin-bottom: 12px!important;
+	width: 100%;
+}
+#gk-sidebar > div > .box:nth-child(2n+1) {
+	clear: both!important;
+}
+#gk-sidebar > div > .box:nth-child(odd) {
+	padding-right: 0px;	
+}
+#gk-sidebar > div > .box:nth-child(even) {
+	padding-left: 0px;
+}
+
+.widget-area .col1,
+.widget-area .col2,
+.widget-area .col3,
+.widget-area .col4,
+.widget-area .col5,
+.widget-area .col6,
+.widget-area .box.last1,
+.widget-area .box.last2,
+.widget-area .box.last3,
+.widget-area .box.last4,
+.widget-area .box.last5 { 
+	float: none!important;
+	margin: 0 auto 20px auto!important; 
+	max-width: 320px; 
+	width: 100%; 
+}
+
+.widget-area .nth1,
+.widget-area .nth2,
+.widget-area .nth3,
+.widget-area .nth4,
+.widget-area .nth5,
+.widget-area .nth6 {
+	clear: both;
+}
+
+/* 13.2. Posts
+==================================== */
+
+article header {
+	margin-bottom: 20px;
+}
+
+article header h1 sup, 
+article.sticky header h1 sup, 
+article header h2 sup, 
+article.sticky header h2 sup {
+	top: -1.2em;
+}
+
+/* other elements */
+article header h1,
+article header h2 {
+	line-height: 32px!important;
+	padding: 18px 0 0px;
+}
+article header h1, 
+article header h2 {
+	font-size: 24px!important;
+}
+article header ul {
+	margin-bottom: 12px!important;
+}
+h1,
+.page-title {
+	font-size: 28px;
+	line-height: 32px;
+}
+h2 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 20px;
+}
+h5 {
+	font-size: 16px;
+}
+h6 {
+	font-size: 14px;
+}
+article header h1,
+article header h2 {
+	padding-bottom: 0;
+}
+
+/* Comments, tags and author block */
+#comments li article > aside {
+	float: left;
+	position: static;
+}
+#comments li article > aside img {
+	margin-left: 0;
+	margin-right: 10px;
+}
+#comments article .author {
+	float: none;
+	margin-top: 5px;
+}
+#comments li article > .content {
+	clear: both;
+	margin: 0;
+}
+#comments li article > .content > header > * {
+	clear: both;
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 5px 0;
+}
+#comments li article > .content > header + * {
+	clear: both;
+	margin-top: 20px;
+}
+#respond > h3,
+#comments > h2:first-child {
+	font-size: 24px;
+	padding: 10px 0!important;	
+}
+.author-info {
+	margin: 10px 0;
+}
+.author-info > aside {
+	position: static;
+}
+.author-info .author-desc {
+	clear: both;
+	margin: 0!important;
+}
+#comments li article {
+	margin: 0 0 6px 0;
+	padding: 6px 0 0 0;
+}
+
+/* 13.3. Other elements
+==================================== */
+
+#gk-social-api {
+	overflow: hidden;
+}
+
+body .gk-page .box {
+	margin-bottom: 20px!important;
+}
+
+.gk-nsp .gk-nsp-art {
+	border-top: 1px solid #eee!important;
+	border-left: none!important;
+	padding-bottom: 20px!important;
+	padding-top: 20px!important;
+	width: 100%!important;
+}
+.gk-nsp .gk-nsp-art:first-child {
+	border-top: none!important;
+}
+
+/* Style bigtitle */
+.box.bigtitle .gk-nsp-content-wrap {
+	clear: both;
+	padding-top: 10px;
+}
+
+/* GK Tabs adjustments */
+.gk-tabs-nav {
+	height: auto!important;
+	min-height: 40px!important;
+	overflow: hidden;
+}
+
+.gk-tabs-wrap .gk-tabs-nav li:first-child {
+	border-top: 1px solid #e5e5e5!important;
+}
+
+.gk-tabs-wrap .gk-tabs-nav li {
+	border-left: 1px solid #e5e5e5!important;
+	border-right: 1px solid #e5e5e5!important;
+	border-top: none!important;
+	-webkit-box-sizing: border-box!important;
+	-moz-box-sizing: border-box!important;
+	-ms-box-sizing: border-box!important;
+	-o-box-sizing: border-box!important;
+	box-sizing: border-box!important;
+	clear: both;
+	width: 100%!important;
+}
+
+@media (min-width: 420px) and (max-width: 580px) {
+	.box.mobilelayout .gk-nsp .gk-nsp-art,
+	.box.nsphover .gk-nsp .gk-nsp-art {
+		border-top: none!important;
+		width: 50%!important;
+	}
+	
+	.box.nsphover .gk-nsp .gk-nsp-art h3 {
+		font-size: 16px!important;
+	}
+	
+	.box.nsphover .gk-nsp .gk-nsp-art .gk-nsp-text {
+		font-size: 11px!important;
+	}	
+}
+
+.box.nsphover .gk-nsp .gk-nsp-art {
+	padding-bottom: 10px!important;
+	padding-top: 0!important;
+}
+
+/* Login / Register buttons on very small screens */
+@media (max-width: 420px) {
+	#gk-user-area {
+		float: right;
+		margin: 8px 0 0 0;
+		width: 50%;
+	}
+}
+
+/* Toolbar */
+body {
+	margin-left: 40px;
+}
+#gk-toolbar {
+	left: -6px!important;
+	width: 46px!important;
+}
+#gk-links a, #gk-social a {
+	width: 46px;
+}
+#gk-social [class^="gk-icon-"]:before, #gk-social [class*=" gk-icon-"]:before {
+	margin: 0 14px;
+}
+#gk-toolbar [class^="gk-icon-"]:before, #gk-toolbar [class*=" gk-icon-"]:before, #gk-back-to-top[class^="gk-icon-"]:before, #gk-back-to-top[class*=" gk-icon-"]:before {
+	margin: 0 15px;
+}
+#gk-search,
+#gk-style-area,
+#gk-social-icons a,
+.gk-rss,
+.gk-mail,
+.gk-twitter,
+.gk-facebook,
+.gk-gplus,
+.gk-pinterest,
+#main-menu-mobile,
+#main-menu-mobile select {
+	width: 46px!important;
+}
+#main-menu-mobile {
+	background-position: 0 center;
+}
+#gk-back-to-top {
+	left: -6px;
+	width: 46px;
+}
+
+/* Popup login */
+#gk-popup-login {
+	margin-left: -150px!important;
+	width: 300px!important;
+}
+
+#gk-popup-login #loginform {
+	background-image: none;
+	padding-left: 0!important;
+}
+
+#gk-popup-login #loginform ul,
+#gk-popup-login #loginform .login-remember, 
+#gk-popup-login #loginform .login-submit {
+	margin-left: 0!important;
+}
+
+/* Footer */
+#footer-menu li {
+	clear: both;
+	padding: 5px 0;
+	text-align: center;
+	width: 100%;
+}
+
+/* Page templates */
+#gallery figcaption {
+	display: none;
+}
+
+/* Typography */
+.gk-warning, 
+.gk-notice, 
+.gk-info, 
+.gk-error, 
+.gk-thanks {
+	background-image: none!important;
+	padding-left: 12px;
+}
+
+.gk-floated {
+	padding: 8px;
+}
+
+.gk-columns > div {
+	padding: 10px 0!important;
+	width: 100%!important;
+}
+
+/* 13.4. Device classes
+==================================== */
+
+.onlyDesktop {
+	display: none!important;
+}
+
+.onlyTablets {
+	display: none!important;
+}
+
+.onlySmartphones {
+	display: block!important;
+}
+
+.onlyTabltetsAndSmartphones {
+	display: block!important;
+}

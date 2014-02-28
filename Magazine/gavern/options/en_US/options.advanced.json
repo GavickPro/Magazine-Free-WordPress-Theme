@@ -1,0 +1,87 @@
+[
+	{
+		"groupname": "Advanced theme settings",
+		"groupdesc": "Here you may configure advanced theme settings associated with the additional metatags, CSS files and output.",
+		"fields": [
+			{
+				"name": "custom_fields_state",
+				"type": "Switcher",
+				"label": "Custom fields",
+				"tooltip": "Enable custom fields used to display additional information in the post.",
+				"default": "N"
+			},
+			{
+				"name": "hidden_post_fields",
+				"type": "Textarea",
+				"label": "Hidden Custom Post Fields",
+				"tooltip": "You can specify a list of the Custom Post Fields which will be always hidden. The fields names should be separated by comma i.e. hidden1,hidden2,hidden3",
+				"default": "",
+				"visibility": "custom_fields_state=Y"
+			},
+			{
+			    "name": "post_fileds_label_mapping",
+			    "type": "Textarea",
+			    "label": "Custom Post Fields label mapping",
+			    "tooltip": "You can change a default name of custom post field to your own. (this_is_label=My label name - each pair in new line)",
+			    "default": "",
+			    "visibility": "custom_fields_state=Y"
+			},
+			{
+				"name": "prefixfree_state",
+				"type": "Switcher",
+				"label": "Use Prefixfree script",
+				"tooltip": "Enable use of the Prefixfree script which cause that the CSS vendor prefixes are unnecessary.",
+				"default": "N"
+			},
+			{
+				"name": "emoticons_widget_state",
+				"type": "Switcher",
+				"label": "Parse emoticons within text widgets",
+				"tooltip": "Enable parsing of emoticons within widget text.",
+				"default": "Y"
+			},
+			{
+				"name": "shortcodes_widget_state",
+				"type": "Switcher",
+				"label": "Parse shortcodes within text widgets",
+				"tooltip": "Enable parsing of shortcodes within widget text.",
+				"default": "Y"
+			},
+			{
+				"name": "content_width_variable",
+				"type": "Text",
+				"label": "Value of variable $content_width",
+				"tooltip": "Specify the value of the $content_width variable to avoid problems with images, oEmbeds etc. We recommend setting this to the theme's maximum width.",
+				"default": "1024"
+			},
+			{
+				"name": "excerpt_len",
+				"type": "Text",
+				"label": "Excerpt length (in words)",
+				"tooltip": "Specify the value of the excerpt length used in the posts (the length is specified in words).",
+				"default": "55"
+			},
+			{
+				"name": "overridecss_state",
+				"type": "Switcher",
+				"label": "Use the override.css file",
+				"tooltip": "Enable inclusion of the override.css file in the <head> section. The override.css file is the best way to add modifications and new CSS code without changing the original theme files.",
+				"default": "Y"
+			},
+			{
+			    "name": "custom_rss_feed",
+			    "type": "Text",
+			    "label": "Custom RSS feed URL",
+			    "tooltip": "Specify the custom RSS feed URL if you're using services like Feedburner",
+			    "default": ""
+			},
+			{
+			    "name": "cache_manifest",
+			    "type": "Text",
+			    "label": "Cache manifest filename",
+			    "tooltip": "Please specify the cache manifest filename if you need. This file should be located in the root of your WordPress installation.",
+			    "default": ""
+			}
+		]
+	}
+]
