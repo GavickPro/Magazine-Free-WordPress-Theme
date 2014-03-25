@@ -244,7 +244,7 @@ function gk_post_meta($attachment = false) {
 	 		
 	 		<li>
  				<time class="entry-date" datetime="<?php echo esc_attr(get_the_date(DATE_W3C)); ?>">
- 					<?php echo esc_html(get_the_date('F j, Y')); ?>
+ 					<?php echo esc_html(get_the_date()); ?>
  				</time>
 	 		</li>
 	 		<?php endif; ?>
