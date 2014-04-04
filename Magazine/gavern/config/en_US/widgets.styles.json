@@ -52,11 +52,11 @@
 	{
 		"name": "Headlines",
 		"css_class": "headlines",
-		"for_only": "widget_gk_nsp"
+		"for_only": "gk_nsp"
 	},
 	{
 		"name": "Hover effect",
 		"css_class": "nsphover",
-		"for_only": "widget_gk_nsp"
+		"for_only": "gk_nsp"
 	}
 ]
