@@ -273,6 +273,8 @@ class GavernWP {
 	 	add_theme_support( 'post-thumbnails' );
 	 	// add support for default posts and comments RSS feed links in the head
 	 	add_theme_support( 'automatic-feed-links' );
+	 	// add support for widgets in Theme Customizer
+	 	add_theme_support('widget-customizer');
 	 	// register menus
 	 	$this->register_menus();
 	 	// register styles
@@ -283,7 +285,7 @@ class GavernWP {
 	 	add_action('add_meta_boxes', 'add_gavern_metaboxes' );
 	 	add_action('save_post', 'gavern_metaboxes_save' ); 
 	 	// add Gavern Shortcode button to the TinyMCE editor
-	 	add_action('admin_init', 'add_gavern_shortcode_button');
+	 	add_action('admin_head', 'add_gavern_shortcode_button');
 	 	// register template built-in widgets
 	 	register_widget('GK_Comments_Widget');
 	 	register_widget('GK_Social_Widget');
@@ -423,51 +425,6 @@ class GavernWP {
 			return array();
 		}
 	}
-	
-/**
-   	*
-   	* Function to load widget settings from the *.data file
-   	*
-   	* @return boolean - result
-   	* 
-   	**/ 
-   	
-   	function loadWidgetSettings() {
-   		global $wpdb;
-   		
-   		$data_file = get_template_directory() . '/gavern/demo/widgets.data';
-   		$lines = file($data_file);
-   		
-   		$option_name = '';
-   		$option_value = '';
-   		
-   		foreach($lines as $line_num => $line) {
-   			if($line_num % 3 == 0) {
-   				$option_name = $line;
-   			}
-   			
-   			if($line_num % 3 == 1) {
-   				$option_value = $line;
-   			}
-   			
-   			if($line_num % 3 == 2) {
-   				if($option_name != '' && $option_value != '') {
-   					$res = $wpdb->query("UPDATE " . $wpdb->prefix . "options SET option_value='" . $option_value . "' WHERE option_name= '" . trim($option_name) . "' LIMIT 1; ");
-   					
-   					if($res === 0) {
-   						$wpdb->query("INSERT INTO " . $wpdb->prefix . "options VALUES (NULL, '".trim($option_name)."', '" . trim($option_value) . "', 'yes'); ");
-   					}
-   				}
-   				
-   				$option_name = '';
-   				$option_value = '';
-   			}
-   		}
-   		
-   		update_option($this->name . '_widget_settings_loaded', 'Y');
-   		
-   		return 'loaded';
-   	}
 }
 
 // EOF
