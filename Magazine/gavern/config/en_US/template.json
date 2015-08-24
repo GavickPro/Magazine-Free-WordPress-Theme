@@ -2,8 +2,8 @@
 	"template": {
 		"name": "Magazine",
 		"update_name": "gk_magazine_wp",
-		"date": "28/04/2015",
-		"version": "1.9",
+		"date": "21/08/2015",
+		"version": "1.11",
 		"description": "Blog WordPress Theme, based on the GavernWP Framework"
 	},
 	"developer_config": {

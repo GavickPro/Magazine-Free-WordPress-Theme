@@ -12,6 +12,86 @@ defined('GAVERN_WP') or die('Access denied');
  **/
 
 /**
+*
+* Code to inlcude necessary plugins
+*
+**/
+
+// include TGM Plugin Activation class
+require_once(gavern_file('gavern/classes/class-tgm-plugin-activation.php'));
+
+/**
+ * Register the required plugins for this theme.
+ *
+ * The variable passed to tgmpa_register_plugins() should be an array of plugin
+ * arrays.
+ *
+ * This function is hooked into tgmpa_init, which is fired within the
+ * TGM_Plugin_Activation class constructor.
+ */
+function gavern_register_required_plugins() {
+    /**
+     * Array of plugin arrays. Required keys are name and slug.
+     * 
+     */
+     $plugins = array(
+ 
+         // Plugins pre-packaged with a theme.
+         array(
+             'name'               => 'GK News Show Pro',
+             'slug'               => 'gk-nsp',
+             'source'             => 'http://www.gavick.com/upd/gk-nsp.zip', 
+             'required'           => true,              
+             'version'            => ''
+         ),
+
+         array(
+             'name'               => 'GK Tabs',
+             'slug'               => 'gk-tabs',
+             'source'             => 'http://www.gavick.com/upd/gk-tabs.zip', 
+             'required'           => true,              
+             'version'            => ''
+         )
+ 
+     );
+     
+     /**
+      * Array of configuration settings. 
+      */
+     $config = array(
+         'id'           => 'tgmpa',
+         'menu'         => 'tgmpa-install-plugins',
+         'has_notices'  => true,
+         'dismissable'  => true,                    
+         'is_automatic' => false,
+         'strings'      => array(
+            'menu_title'                      => __( 'Install Plugins', GKTPLNAME ),
+            'page_title'                      => __( 'Install Required Plugins', GKTPLNAME ),
+            'installing'                      => __( 'Installing Plugin: %s', GKTPLNAME ), 
+            'oops'                            => __( 'Something went wrong with the plugin API.', GKTPLNAME ),
+            'notice_can_install_required'     => _n_noop( 'This theme requires the following plugin: %1$s.', 'This theme requires the following plugins: %1$s.', GKTPLNAME ), 
+            'notice_can_install_recommended'  => _n_noop( 'This theme recommends the following plugin: %1$s.', 'This theme recommends the following plugins: %1$s.', GKTPLNAME ),
+            'notice_cannot_install'           => _n_noop( 'Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed.', 'Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed.', GKTPLNAME ),
+            'notice_can_activate_required'    => _n_noop( 'The following required plugin is currently inactive: %1$s.', 'The following required plugins are currently inactive: %1$s.', GKTPLNAME ),
+            'notice_can_activate_recommended' => _n_noop( 'The following recommended plugin is currently inactive: %1$s.', 'The following recommended plugins are currently inactive: %1$s.', GKTPLNAME ),
+            'notice_cannot_activate'          => _n_noop( 'Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated.', 'Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated.', GKTPLNAME ),
+            'notice_ask_to_update'            => _n_noop( 'The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s.', 'The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s.', GKTPLNAME ),
+            'notice_cannot_update'            => _n_noop( 'Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated.', 'Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated.', GKTPLNAME ),
+            'install_link'                    => _n_noop( 'Begin installing plugin', 'Begin installing plugins', GKTPLNAME ),
+            'activate_link'                   => _n_noop( 'Begin activating plugin', 'Begin activating plugins', GKTPLNAME ),
+            'return'                          => __( 'Return to Required Plugins Installer', GKTPLNAME ),
+            'plugin_activated'                => __( 'Plugin activated successfully.', GKTPLNAME ),
+            'complete'                        => __( 'All plugins installed and activated successfully. %s', GKTPLNAME ),
+            'nag_type'                        => 'updated'
+         )
+     );
+ 
+     tgmpa( $plugins, $config );
+}
+
+add_action( 'tgmpa_register', 'gavern_register_required_plugins' );
+
+/**
  *
  * Code to create shortcodes button
  *
@@ -485,7 +565,7 @@ function gavern_widget_control() {
 		$usersMode = !empty($users[$id]) ? htmlspecialchars(stripslashes($users[$id]),ENT_QUOTES) : '';	
 		// 
 		echo '
-		<a class="gk_widget_rules_btn button">Widget rules</a>
+		<a class="gk_widget_rules_btn button">'.__('Widget rules', GKTPLNAME).'</a>
 		<div class="gk_widget_rules_wrapper'.((isset($_COOKIE['gk_last_opened_widget_rules_wrap']) && $_COOKIE['gk_last_opened_widget_rules_wrap'] == 'gk_widget_rules_form_'.$id) ? ' active' : '').'" data-id="gk_widget_rules_form_'.$id.'">
 			<p>
 				<label for="' . $tpl->name . '_widget_rules_'.$id.'">'.__('Visible at: ', GKTPLNAME).'</label>

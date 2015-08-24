@@ -9,7 +9,7 @@ msgstr  ""
 "Project-Id-Version: Magazine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-02 11:06+0200\n"
-"PO-Revision-Date: 2014-09-09 14:14+0200\n"
+"PO-Revision-Date: 2015-08-20 14:14+0200\n"
 "Last-Translator: GavickPro <info@gavick.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -36,6 +36,16 @@ msgstr  ""
 msgid   "%1$s at %2$s"
 msgstr  ""
 
+#: gavern/classes/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid   "%1$s installed and activated successfully."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid   "%1$s installed successfully."
+msgstr  ""
+
 #: gavern/filters.php:249
 msgid   "&laquo; Back"
 msgstr  ""
@@ -53,11 +63,21 @@ msgstr  ""
 msgid   "1 Comment"
 msgstr  ""
 
+#: gavern/options.importexport.php:55
+msgid   "1. Click \"Browse\" button and choose a backup file that you backup "
+        "before."
+msgstr  ""
+
 #: comments.php:27
 msgid   "2 Comments"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:513
+#: gavern/options.importexport.php:56
+msgid   "2. Click \"Restore Template Settings\" button to restore your "
+        "template settings."
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:593
 msgid   "404 page"
 msgstr  ""
 
@@ -65,7 +85,12 @@ msgstr  ""
 msgid   "< Prev"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:525
+#: gavern/classes/class-tgm-plugin-activation.php:1312
+#: gavern/classes/class-tgm-plugin-activation.php:1410
+msgid   "Activate"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:605
 msgid   "Add page"
 msgstr  ""
 
@@ -77,24 +102,57 @@ msgstr  ""
 msgid   "Adobe Edge Fonts URL: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:672
+#: gavern/options.importexport.php:73
+msgid   "After exporting, you can either use the backup file to restore your "
+        "template settings on this site again or another Wordpress site when "
+        "using same Gavern template."
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:752
 msgid   "All devices"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2071
+msgid   "All installations and activations have been completed."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2080
+msgid   "All installations have been completed."
 msgstr  ""
 
 #: gavern/form_elements/Menu/menu.php:80
 msgid   "All levels"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:493
+#: gavern/helpers/helpers.features.php:573
 msgid   "All pages"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:494
+#: gavern/helpers/helpers.features.php:574
 msgid   "All pages except:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:688
+#: gavern/classes/class-tgm-plugin-activation.php:179
+#, php-format
+msgid   "All plugins installed and activated successfully. %1$s"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:84
+#, php-format
+msgid   "All plugins installed and activated successfully. %s"
+msgstr  ""
+
+#: gavern/options.importexport.php:48
+msgid   "All template options are restored successfully."
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:768
 msgid   "All users"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid   "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr  ""
 
 #: gavern/form_elements/Menu/menu.php:93
@@ -111,7 +169,7 @@ msgid   "Apologies, but no results were found for the requested archive. "
         "Perhaps searching will help find a related post."
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:507
+#: gavern/helpers/helpers.features.php:587
 msgid   "Archive"
 msgstr  ""
 
@@ -123,11 +181,11 @@ msgstr  ""
 msgid   "Attachment size:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:508
+#: gavern/helpers/helpers.features.php:588
 msgid   "Author"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:520
+#: gavern/helpers/helpers.features.php:600
 msgid   "Author:"
 msgstr  ""
 
@@ -140,12 +198,16 @@ msgstr  ""
 msgid   "Avatar size:"
 msgstr  ""
 
-#: template.contact.php:184
+#: template.contact.php:185
 msgid   "Back to the homepage"
 msgstr  ""
 
 #: layouts/toolbar.php:77
 msgid   "Back to top"
+msgstr  ""
+
+#: gavern/options.importexport.php:77
+msgid   "Backup Template Settings"
 msgstr  ""
 
 #: gavern/layouts/template.php:28 gavern/options.importexport.php:29
@@ -160,19 +222,19 @@ msgstr  ""
 msgid   "Categories"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:504
+#: gavern/helpers/helpers.features.php:584
 msgid   "Category"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:517
+#: gavern/helpers/helpers.features.php:597
 msgid   "Category ID/Name/slug:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:518
+#: gavern/helpers/helpers.features.php:598
 msgid   "Category ID:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:505
+#: gavern/helpers/helpers.features.php:585
 msgid   "Category with descendants"
 msgstr  ""
 
@@ -207,11 +269,11 @@ msgstr  ""
 msgid   "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:662
+#: gavern/helpers/helpers.features.php:742
 msgid   "Custom CSS class"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:669
+#: gavern/helpers/helpers.features.php:749
 msgid   "Custom CSS class: "
 msgstr  ""
 
@@ -228,11 +290,11 @@ msgstr  ""
 msgid   "Depth of "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:73
+#: gavern/helpers/helpers.features.php:153
 msgid   "Description:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:673
+#: gavern/helpers/helpers.features.php:753
 msgid   "Desktop"
 msgstr  ""
 
@@ -240,26 +302,36 @@ msgstr  ""
 msgid   "Dimensions"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:106
-#: gavern/helpers/helpers.features.php:114
-#: gavern/helpers/helpers.features.php:122
-#: gavern/helpers/helpers.features.php:129
-#: gavern/helpers/helpers.features.php:136
-#: gavern/helpers/helpers.features.php:143
-#: gavern/helpers/helpers.features.php:150
-#: gavern/helpers/helpers.features.php:157
-#: gavern/helpers/helpers.features.php:165
-#: gavern/helpers/helpers.features.php:172
-#: gavern/helpers/helpers.features.php:179
+#: gavern/helpers/helpers.features.php:186
+#: gavern/helpers/helpers.features.php:194
+#: gavern/helpers/helpers.features.php:202
+#: gavern/helpers/helpers.features.php:209
+#: gavern/helpers/helpers.features.php:216
+#: gavern/helpers/helpers.features.php:223
+#: gavern/helpers/helpers.features.php:230
+#: gavern/helpers/helpers.features.php:237
+#: gavern/helpers/helpers.features.php:245
+#: gavern/helpers/helpers.features.php:252
+#: gavern/helpers/helpers.features.php:259
 #: gavern/form_elements/Menu/menu.php:58 gavern/form_elements/standard.php:237
 msgid   "Disabled"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:180
+msgid   "Dismiss this notice"
 msgstr  ""
 
 #: gavern/functions.php:98
 msgid   "Documentation"
 msgstr  ""
 
-#: template.contact.php:129
+#: gavern/classes/class-tgm-plugin-activation.php:1940
+#, php-format
+msgid   "Downloading install package from <span class=\"code\">%s</"
+        "span>&#8230;"
+msgstr  ""
+
+#: template.contact.php:130
 msgid   "E-mail:"
 msgstr  ""
 
@@ -269,7 +341,7 @@ msgstr  ""
 msgid   "Edit"
 msgstr  ""
 
-#: template.contact.php:207
+#: template.contact.php:208
 msgid   "Email:"
 msgstr  ""
 
@@ -277,17 +349,17 @@ msgstr  ""
 msgid   "Enable"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:105
-#: gavern/helpers/helpers.features.php:113
-#: gavern/helpers/helpers.features.php:121
-#: gavern/helpers/helpers.features.php:128
-#: gavern/helpers/helpers.features.php:135
-#: gavern/helpers/helpers.features.php:142
-#: gavern/helpers/helpers.features.php:149
-#: gavern/helpers/helpers.features.php:156
-#: gavern/helpers/helpers.features.php:164
-#: gavern/helpers/helpers.features.php:171
-#: gavern/helpers/helpers.features.php:178
+#: gavern/helpers/helpers.features.php:185
+#: gavern/helpers/helpers.features.php:193
+#: gavern/helpers/helpers.features.php:201
+#: gavern/helpers/helpers.features.php:208
+#: gavern/helpers/helpers.features.php:215
+#: gavern/helpers/helpers.features.php:222
+#: gavern/helpers/helpers.features.php:229
+#: gavern/helpers/helpers.features.php:236
+#: gavern/helpers/helpers.features.php:244
+#: gavern/helpers/helpers.features.php:251
+#: gavern/helpers/helpers.features.php:258
 #: gavern/form_elements/Menu/menu.php:57 gavern/form_elements/standard.php:238
 msgid   "Enabled"
 msgstr  ""
@@ -296,7 +368,11 @@ msgstr  ""
 msgid   "Enter an URL or upload an image."
 msgstr  ""
 
-#: gavern/widgets.social.php:144
+#: gavern/options.importexport.php:70
+msgid   "Export Template Settings"
+msgstr  ""
+
+#: gavern/widgets.social.php:142
 msgid   "Facebook link:"
 msgstr  ""
 
@@ -308,8 +384,8 @@ msgstr  ""
 msgid   "Featured"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:268
-#: gavern/helpers/helpers.features.php:269
+#: gavern/helpers/helpers.features.php:348
+#: gavern/helpers/helpers.features.php:349
 msgid   "Featured Video"
 msgstr  ""
 
@@ -329,7 +405,7 @@ msgstr  ""
 msgid   "Fonts Squirrel: "
 msgstr  ""
 
-#: template.contact.php:109 template.contact.php:111 template.contact.php:113
+#: template.contact.php:110 template.contact.php:112 template.contact.php:114
 msgid   "From "
 msgstr  ""
 
@@ -338,11 +414,11 @@ msgstr  ""
 msgid   "Full size is %s pixels"
 msgstr  ""
 
-#: gavern/widgets.comments.php:20
+#: gavern/widgets.comments.php:23
 msgid   "GK Comments"
 msgstr  ""
 
-#: gavern/widgets.social.php:20
+#: gavern/widgets.social.php:23
 msgid   "GK Social Icons"
 msgstr  ""
 
@@ -366,7 +442,7 @@ msgstr  ""
 msgid   "Google Web Fonts URL: "
 msgstr  ""
 
-#: gavern/widgets.social.php:154
+#: gavern/widgets.social.php:152
 msgid   "Google+ link:"
 msgstr  ""
 
@@ -378,12 +454,21 @@ msgstr  ""
 msgid   "Hi, "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:501 gavern/filters.php:282
+#: gavern/classes/class-tgm-plugin-activation.php:2070
+#: gavern/classes/class-tgm-plugin-activation.php:2079
+msgid   "Hide Details"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:581 gavern/filters.php:282
 msgid   "Homepage"
 msgstr  ""
 
 #: gavern/helpers/helpers.layout.php:1007
 msgid   "Image"
+msgstr  ""
+
+#: gavern/options.importexport.php:31
+msgid   "Import Template Settings"
 msgstr  ""
 
 #: gavern/functions.php:71
@@ -410,11 +495,58 @@ msgstr  ""
 msgid   "Inset position"
 msgstr  ""
 
+#: gavern/classes/class-tgm-plugin-activation.php:1288
+#: gavern/classes/class-tgm-plugin-activation.php:1409
+msgid   "Install"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:68
+#: gavern/classes/class-tgm-plugin-activation.php:162
+msgid   "Install Plugins"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:69
+#: gavern/classes/class-tgm-plugin-activation.php:161
+msgid   "Install Required Plugins"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1939
+msgid   "Install package not available."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1183
+msgid   "Installed But Not Activated"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2081
+#, php-format
+msgid   "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:70
+#: gavern/classes/class-tgm-plugin-activation.php:163
+#, php-format
+msgid   "Installing Plugin: %s"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid   "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1942
+msgid   "Installing the plugin&#8230;"
+msgstr  ""
+
+#: gavern/options.importexport.php:51
+msgid   "Invalid file or file size too big."
+msgstr  ""
+
 #: 404.php:18
 msgid   "It seems we can&rsquo;t find what you&rsquo;re looking for."
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:76
+#: gavern/helpers/helpers.features.php:156
 msgid   "Keywords:"
 msgstr  ""
 
@@ -446,12 +578,12 @@ msgstr  ""
 msgid   "Log In"
 msgstr  ""
 
-#: layouts/header.php:100
+#: layouts/header.php:110
 msgid   "Login"
 msgstr  ""
 
 #: template.login.php:33 template.login.php:34 layouts/login.php:25
-#: layouts/login.php:26 layouts/header.php:100
+#: layouts/login.php:26 layouts/header.php:110
 msgid   "Logout"
 msgstr  ""
 
@@ -463,11 +595,11 @@ msgstr  ""
 msgid   "Members only"
 msgstr  ""
 
-#: template.contact.php:118
+#: template.contact.php:119
 msgid   "Message from"
 msgstr  ""
 
-#: template.contact.php:135 template.contact.php:218
+#: template.contact.php:136 template.contact.php:219
 msgid   "Message:"
 msgstr  ""
 
@@ -488,7 +620,7 @@ msgstr  ""
 msgid   "Most Used Categories"
 msgstr  ""
 
-#: template.contact.php:122 template.contact.php:195
+#: template.contact.php:123 template.contact.php:196
 msgid   "Name:"
 msgstr  ""
 
@@ -516,28 +648,38 @@ msgstr  ""
 msgid   "No image selected"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:529
+#: gavern/helpers/helpers.features.php:609
 msgid   "No pages"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:495
+#: gavern/helpers/helpers.features.php:575
 msgid   "No pages except:"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1372
+#, php-format
+msgid   "No plugins to install or activate. <a href=\"%1$s\" title=\"Return "
+        "to the Dashboard\">Return to the Dashboard</a>"
 msgstr  ""
 
 #: gavern/helpers/helpers.shortcodes.php:634
 msgid   "No related posts found"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:659
+#: gavern/helpers/helpers.features.php:739
 msgid   "No styles available"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:630
+#: gavern/helpers/helpers.features.php:710
 msgid   "None"
 msgstr  ""
 
 #: gavern/form_elements/Menu/menu.php:115
 msgid   "Normal animation (500ms)"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1181
+msgid   "Not Installed"
 msgstr  ""
 
 #: template.login.php:66
@@ -557,15 +699,15 @@ msgstr  ""
 msgid   "Older posts"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:691
+#: gavern/helpers/helpers.features.php:771
 msgid   "Only administrator"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:689
+#: gavern/helpers/helpers.features.php:769
 msgid   "Only guests"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:690
+#: gavern/helpers/helpers.features.php:770
 msgid   "Only registered users"
 msgstr  ""
 
@@ -573,7 +715,7 @@ msgstr  ""
 msgid   "Opacity"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:502
+#: gavern/helpers/helpers.features.php:582
 msgid   "Page"
 msgstr  ""
 
@@ -582,19 +724,19 @@ msgstr  ""
 msgid   "Page %s"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:515
+#: gavern/helpers/helpers.features.php:595
 msgid   "Page ID/Title/slug:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:509
+#: gavern/helpers/helpers.features.php:589
 msgid   "Page Template"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:63
+#: gavern/helpers/helpers.features.php:143
 msgid   "Page additional params"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:59
+#: gavern/helpers/helpers.features.php:139
 msgid   "Page keywords and description"
 msgstr  ""
 
@@ -631,7 +773,7 @@ msgstr  ""
 msgid   "Pingback:"
 msgstr  ""
 
-#: gavern/widgets.social.php:159
+#: gavern/widgets.social.php:157
 msgid   "Pinterest link:"
 msgstr  ""
 
@@ -639,32 +781,64 @@ msgstr  ""
 msgid   "Please check the form!"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:503
+#: gavern/classes/class-tgm-plugin-activation.php:1388
+msgid   "Plugin"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:83
+#: gavern/classes/class-tgm-plugin-activation.php:177
+#: gavern/classes/class-tgm-plugin-activation.php:1956
+msgid   "Plugin activated successfully."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1955
+msgid   "Plugin activation failed."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1943
+msgid   "Plugin install failed."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1944
+msgid   "Plugin installed successfully."
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:583
 msgid   "Post"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:516
+#: gavern/helpers/helpers.features.php:596
 msgid   "Post ID/Title/slug:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:62
+#: gavern/helpers/helpers.features.php:142
 msgid   "Post additional params"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:58
+#: gavern/helpers/helpers.features.php:138
 msgid   "Post keywords and description"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:511
+#: gavern/helpers/helpers.features.php:591
 msgid   "Post type"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:524
+#: gavern/helpers/helpers.features.php:604
 msgid   "Post type:"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1170
+#: gavern/classes/class-tgm-plugin-activation.php:1351
+msgid   "Pre-Packaged"
 msgstr  ""
 
 #: attachment.php:60
 msgid   "Previous Image"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1167
+#: gavern/classes/class-tgm-plugin-activation.php:1348
+msgid   "Private Repository"
 msgstr  ""
 
 #: gavern/helpers/helpers.layout.php:490
@@ -678,7 +852,11 @@ msgstr  ""
 msgid   "Read more"
 msgstr  ""
 
-#: template.login.php:66 layouts/header.php:104
+#: gavern/classes/class-tgm-plugin-activation.php:1178
+msgid   "Recommended"
+msgstr  ""
+
+#: template.login.php:66 layouts/header.php:114
 msgid   "Register"
 msgstr  ""
 
@@ -690,13 +868,35 @@ msgstr  ""
 msgid   "Reply"
 msgstr  ""
 
+#: gavern/classes/class-tgm-plugin-activation.php:1178
+msgid   "Required"
+msgstr  ""
+
 #: gavern/helpers/helpers.customizer.php:53
 msgid   "Responsive Web Design"
+msgstr  ""
+
+#: gavern/options.importexport.php:61
+msgid   "Restore Template Settings"
 msgstr  ""
 
 #: attachment.php:68
 #, php-format
 msgid   "Return to %s"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:82
+#: gavern/classes/class-tgm-plugin-activation.php:175
+msgid   "Return to Required Plugins Installer"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:532
+#: gavern/classes/class-tgm-plugin-activation.php:2173
+msgid   "Return to the Dashboard"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:176
+msgid   "Return to the dashboard"
 msgstr  ""
 
 #: gavern/layouts/template.php:66
@@ -716,7 +916,7 @@ msgstr  ""
 msgid   "Search Results for: %s"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:512
+#: gavern/helpers/helpers.features.php:592
 msgid   "Search page"
 msgstr  ""
 
@@ -733,11 +933,11 @@ msgstr  ""
 msgid   "Select a page"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:499
+#: gavern/helpers/helpers.features.php:579
 msgid   "Select page to add"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:528
+#: gavern/helpers/helpers.features.php:608
 msgid   "Selected pages"
 msgstr  ""
 
@@ -745,11 +945,11 @@ msgstr  ""
 msgid   "Selectors:"
 msgstr  ""
 
-#: template.contact.php:232
+#: template.contact.php:233
 msgid   "Send copy of the message to yourself"
 msgstr  ""
 
-#: template.contact.php:256
+#: template.contact.php:254
 msgid   "Send message"
 msgstr  ""
 
@@ -757,47 +957,52 @@ msgstr  ""
 msgid   "Settings saved"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:176
+#: gavern/helpers/helpers.features.php:256
 msgid   "Show \"send copy\":"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:133
+#: gavern/classes/class-tgm-plugin-activation.php:2070
+#: gavern/classes/class-tgm-plugin-activation.php:2079
+msgid   "Show Details"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:213
 msgid   "Show author:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:140
+#: gavern/helpers/helpers.features.php:220
 msgid   "Show category:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:154
+#: gavern/helpers/helpers.features.php:234
 msgid   "Show comments:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:126
+#: gavern/helpers/helpers.features.php:206
 msgid   "Show date:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:169
+#: gavern/helpers/helpers.features.php:249
 msgid   "Show e-mail field:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:111
+#: gavern/helpers/helpers.features.php:191
 msgid   "Show featured image:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:162
+#: gavern/helpers/helpers.features.php:242
 msgid   "Show name field:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:119
+#: gavern/helpers/helpers.features.php:199
 msgid   "Show sidebar information:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:147
+#: gavern/helpers/helpers.features.php:227
 msgid   "Show tags:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:103
+#: gavern/helpers/helpers.features.php:183
 msgid   "Show title:"
 msgstr  ""
 
@@ -829,11 +1034,19 @@ msgstr  ""
 msgid   "Small Tablet width"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:675
+#: gavern/helpers/helpers.features.php:755
 msgid   "Smartphones"
 msgstr  ""
 
-#: template.contact.php:188
+#: gavern/helpers/helpers.features.php:71
+msgid   "Something went wrong with the plugin API."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:164
+msgid   "Something went wrong."
+msgstr  ""
+
+#: template.contact.php:189
 msgid   "Sorry, an error occured."
 msgstr  ""
 
@@ -842,23 +1055,31 @@ msgid   "Sorry, but nothing matched your search criteria. Please try again "
         "with some different keywords."
 msgstr  ""
 
+#: gavern/classes/class-tgm-plugin-activation.php:1389
+msgid   "Source"
+msgstr  ""
+
 #: gavern/form_elements/Fonts/fonts.php:57
 msgid   "Standard fonts"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1391
+msgid   "Status"
 msgstr  ""
 
 #: gavern/helpers/helpers.customizer.php:225
 msgid   "Tablet width"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:676
+#: gavern/helpers/helpers.features.php:756
 msgid   "Tablet/Smartphones"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:674
+#: gavern/helpers/helpers.features.php:754
 msgid   "Tablets"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:506
+#: gavern/helpers/helpers.features.php:586
 msgid   "Tag"
 msgstr  ""
 
@@ -867,7 +1088,7 @@ msgstr  ""
 msgid   "Tag Archives: %s"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:519
+#: gavern/helpers/helpers.features.php:599
 msgid   "Tag ID/Name:"
 msgstr  ""
 
@@ -879,15 +1100,15 @@ msgstr  ""
 msgid   "Tagged under:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:510
+#: gavern/helpers/helpers.features.php:590
 msgid   "Taxonomy"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:523
+#: gavern/helpers/helpers.features.php:603
 msgid   "Taxonomy term:"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:522
+#: gavern/helpers/helpers.features.php:602
 msgid   "Taxonomy:"
 msgstr  ""
 
@@ -899,16 +1120,40 @@ msgstr  ""
 msgid   "Template version: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:521
+#: gavern/helpers/helpers.features.php:601
 msgid   "Template:"
 msgstr  ""
 
-#: template.contact.php:96
+#: gavern/classes/class-tgm-plugin-activation.php:178
+msgid   "The following plugin was activated successfully:"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2069
+msgid   "The installation and activation process is starting. This process "
+        "may take a while on some hosts, so please be patient."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2078
+#, php-format
+msgid   "The installation of %1$s failed."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2076
+msgid   "The installation process is starting. This process may take a while "
+        "on some hosts, so please be patient."
+msgstr  ""
+
+#: template.contact.php:97
 msgid   "The reCAPTCHA wasn't entered correctly. Go back and try it again."
 msgstr  ""
 
 #: gavern/helpers/helpers.customizer.php:215
 msgid   "Theme width"
+msgstr  ""
+
+#: gavern/options.importexport.php:72
+msgid   "This backup file contains your Gavern template configuration and "
+        "setting options."
 msgstr  ""
 
 #: gavern/helpers/helpers.layout.php:1010
@@ -921,7 +1166,7 @@ msgid   "This post is password protected. Enter the password to view any "
         "comments."
 msgstr  ""
 
-#: gavern/widgets.comments.php:196 gavern/widgets.social.php:139
+#: gavern/widgets.comments.php:196 gavern/widgets.social.php:137
 msgid   "Title:"
 msgstr  ""
 
@@ -933,8 +1178,16 @@ msgstr  ""
 msgid   "Tweet"
 msgstr  ""
 
-#: gavern/widgets.social.php:149
+#: gavern/widgets.social.php:147
 msgid   "Twitter link:"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1390
+msgid   "Type"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1941
+msgid   "Unpacking the package&#8230;"
 msgstr  ""
 
 #: gavern/layouts/updates.php:17 gavern/functions.php:83
@@ -945,11 +1198,11 @@ msgstr  ""
 msgid   "Upload Image"
 msgstr  ""
 
-#: gavern/widgets.comments.php:23
+#: gavern/widgets.comments.php:20
 msgid   "Use this widget to show recent comments with avatars"
 msgstr  ""
 
-#: gavern/widgets.social.php:23
+#: gavern/widgets.social.php:20
 msgid   "Use this widget to show social links"
 msgstr  ""
 
@@ -961,7 +1214,7 @@ msgstr  ""
 msgid   "Version: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:279
+#: gavern/helpers/helpers.features.php:359
 msgid   "Video Embed Code"
 msgstr  ""
 
@@ -970,15 +1223,15 @@ msgstr  ""
 msgid   "View all posts by %s"
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:491
+#: gavern/helpers/helpers.features.php:571
 msgid   "Visible at: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:694
+#: gavern/helpers/helpers.features.php:774
 msgid   "Visible for: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:679
+#: gavern/helpers/helpers.features.php:759
 msgid   "Visible on: "
 msgstr  ""
 
@@ -986,7 +1239,16 @@ msgstr  ""
 msgid   "Website: "
 msgstr  ""
 
-#: gavern/helpers/helpers.features.php:665
+#: gavern/options.importexport.php:71
+msgid   "When you click \"Backup Template Settings\" button, system will "
+        "generate a template backup file for you to save on your computer."
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:568
+msgid   "Widget rules"
+msgstr  ""
+
+#: gavern/helpers/helpers.features.php:745
 msgid   "Widget style: "
 msgstr  ""
 
@@ -1004,6 +1266,10 @@ msgstr  ""
 
 #: gavern/filters.php:261
 msgid   "WordPress &rsaquo; Error"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:1175
+msgid   "WordPress Repository"
 msgstr  ""
 
 #: gavern/helpers/helpers.layout.fragments.php:261
@@ -1048,7 +1314,7 @@ msgstr  ""
 msgid   "Your comment is awaiting moderation."
 msgstr  ""
 
-#: template.contact.php:183
+#: template.contact.php:184
 msgid   "Your message was sent to us successfully."
 msgstr  ""
 
@@ -1060,14 +1326,14 @@ msgstr  ""
 msgid   "permalink"
 msgstr  ""
 
-#: template.contact.php:77
+#: template.contact.php:79
 msgid   "please enter a text of the message."
 msgstr  ""
 
-#: template.contact.php:69
+#: template.contact.php:71
 msgid   "please enter correct email address."
 msgstr  ""
 
-#: template.contact.php:60
+#: template.contact.php:62
 msgid   "please enter your name"
 msgstr  ""
