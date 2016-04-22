@@ -352,6 +352,10 @@
 	text-transform: none;
 }
 
+.form-submit input[type="submit"] {
+  margin-top: 16px;
+}
+
 /* 5.3. Post meta-data
 ==================================== */
 

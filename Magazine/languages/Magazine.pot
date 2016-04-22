@@ -9,7 +9,7 @@ msgstr  ""
 "Project-Id-Version: Magazine\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-02 11:06+0200\n"
-"PO-Revision-Date: 2015-08-20 14:14+0200\n"
+"PO-Revision-Date: 2015-12-15 14:14+0200\n"
 "Last-Translator: GavickPro <info@gavick.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -36,14 +36,9 @@ msgstr  ""
 msgid   "%1$s at %2$s"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:2070
+#: gavern/classes/class-tgm-plugin-activation.php:3375
 #, php-format
 msgid   "%1$s installed and activated successfully."
-msgstr  ""
-
-#: gavern/classes/class-tgm-plugin-activation.php:2079
-#, php-format
-msgid   "%1$s installed successfully."
 msgstr  ""
 
 #: gavern/filters.php:249
@@ -85,9 +80,12 @@ msgstr  ""
 msgid   "< Prev"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1312
-#: gavern/classes/class-tgm-plugin-activation.php:1410
+#: gavern/classes/class-tgm-plugin-activation.php:2617
 msgid   "Activate"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2220
+msgid   "Active"
 msgstr  ""
 
 #: gavern/helpers/helpers.features.php:605
@@ -112,11 +110,11 @@ msgstr  ""
 msgid   "All devices"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:2071
+#: gavern/classes/class-tgm-plugin-activation.php:3376
 msgid   "All installations and activations have been completed."
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:2080
+#: gavern/classes/class-tgm-plugin-activation.php:3382
 msgid   "All installations have been completed."
 msgstr  ""
 
@@ -132,7 +130,7 @@ msgstr  ""
 msgid   "All pages except:"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:179
+#: gavern/classes/class-tgm-plugin-activation.php:403
 #, php-format
 msgid   "All plugins installed and activated successfully. %1$s"
 msgstr  ""
@@ -150,7 +148,7 @@ msgstr  ""
 msgid   "All users"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:2077
+#: gavern/classes/class-tgm-plugin-activation.php:3369
 #, php-format
 msgid   "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr  ""
@@ -192,6 +190,10 @@ msgstr  ""
 #: gavern/helpers/helpers.layout.fragments.php:495
 #, php-format
 msgid   "Author: %s "
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2404
+msgid   "Available version:"
 msgstr  ""
 
 #: gavern/widgets.comments.php:201
@@ -317,18 +319,12 @@ msgstr  ""
 msgid   "Disabled"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:180
+#: gavern/classes/class-tgm-plugin-activation.php:404
 msgid   "Dismiss this notice"
 msgstr  ""
 
 #: gavern/functions.php:98
 msgid   "Documentation"
-msgstr  ""
-
-#: gavern/classes/class-tgm-plugin-activation.php:1940
-#, php-format
-msgid   "Downloading install package from <span class=\"code\">%s</"
-        "span>&#8230;"
 msgstr  ""
 
 #: template.contact.php:130
@@ -370,6 +366,10 @@ msgstr  ""
 
 #: gavern/options.importexport.php:70
 msgid   "Export Template Settings"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2194
+msgid   "External Source"
 msgstr  ""
 
 #: gavern/widgets.social.php:142
@@ -454,11 +454,6 @@ msgstr  ""
 msgid   "Hi, "
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:2070
-#: gavern/classes/class-tgm-plugin-activation.php:2079
-msgid   "Hide Details"
-msgstr  ""
-
 #: gavern/helpers/helpers.features.php:581 gavern/filters.php:282
 msgid   "Homepage"
 msgstr  ""
@@ -495,47 +490,42 @@ msgstr  ""
 msgid   "Inset position"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1288
-#: gavern/classes/class-tgm-plugin-activation.php:1409
+#: gavern/classes/class-tgm-plugin-activation.php:2608
 msgid   "Install"
 msgstr  ""
 
 #: gavern/helpers/helpers.features.php:68
-#: gavern/classes/class-tgm-plugin-activation.php:162
+#: gavern/classes/class-tgm-plugin-activation.php:334
 msgid   "Install Plugins"
 msgstr  ""
 
 #: gavern/helpers/helpers.features.php:69
-#: gavern/classes/class-tgm-plugin-activation.php:161
+#: gavern/classes/class-tgm-plugin-activation.php:333
 msgid   "Install Required Plugins"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1939
-msgid   "Install package not available."
-msgstr  ""
-
-#: gavern/classes/class-tgm-plugin-activation.php:1183
+#: gavern/classes/class-tgm-plugin-activation.php:2218
 msgid   "Installed But Not Activated"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:2081
+#: gavern/classes/class-tgm-plugin-activation.php:2384
+msgid   "Installed version:"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:3383
 #, php-format
 msgid   "Installing Plugin %1$s (%2$d/%3$d)"
 msgstr  ""
 
 #: gavern/helpers/helpers.features.php:70
-#: gavern/classes/class-tgm-plugin-activation.php:163
+#: gavern/classes/class-tgm-plugin-activation.php:335
 #, php-format
 msgid   "Installing Plugin: %s"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:2072
+#: gavern/classes/class-tgm-plugin-activation.php:3377
 #, php-format
 msgid   "Installing and Activating Plugin %1$s (%2$d/%3$d)"
-msgstr  ""
-
-#: gavern/classes/class-tgm-plugin-activation.php:1942
-msgid   "Installing the plugin&#8230;"
 msgstr  ""
 
 #: gavern/options.importexport.php:51
@@ -603,6 +593,10 @@ msgstr  ""
 msgid   "Message:"
 msgstr  ""
 
+#: gavern/classes/class-tgm-plugin-activation.php:2392
+msgid   "Minimum required version:"
+msgstr  ""
+
 #: gavern/helpers/helpers.customizer.php:245
 msgid   "Mobile width"
 msgstr  ""
@@ -640,6 +634,11 @@ msgstr  ""
 msgid   "Next Image"
 msgstr  ""
 
+#: gavern/classes/class-tgm-plugin-activation.php:401
+#, php-format
+msgid   "No action taken. Plugin %1$s was already active."
+msgstr  ""
+
 #: gavern/form_elements/Menu/menu.php:102
 msgid   "No animation"
 msgstr  ""
@@ -656,10 +655,26 @@ msgstr  ""
 msgid   "No pages except:"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1372
+#: gavern/classes/class-tgm-plugin-activation.php:2686
+msgid   "No plugins are available to be installed at this time."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2688
+msgid   "No plugins are available to be updated at this time."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2427
 #, php-format
-msgid   "No plugins to install or activate. <a href=\"%1$s\" title=\"Return "
-        "to the Dashboard\">Return to the Dashboard</a>"
+msgid   "No plugins to install, update or activate. <a href=\"%1$s\">Return "
+        "to the Dashboard</a>"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2648
+msgid   "No plugins were selected to be installed. No action taken."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2650
+msgid   "No plugins were selected to be updated. No action taken."
 msgstr  ""
 
 #: gavern/helpers/helpers.shortcodes.php:634
@@ -678,7 +693,7 @@ msgstr  ""
 msgid   "Normal animation (500ms)"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1181
+#: gavern/classes/class-tgm-plugin-activation.php:2214
 msgid   "Not Installed"
 msgstr  ""
 
@@ -781,26 +796,28 @@ msgstr  ""
 msgid   "Please check the form!"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1388
+#: gavern/classes/class-tgm-plugin-activation.php:405
+msgid   "Please contact the administrator of this site for help."
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2441
 msgid   "Plugin"
 msgstr  ""
 
 #: gavern/helpers/helpers.features.php:83
-#: gavern/classes/class-tgm-plugin-activation.php:177
-#: gavern/classes/class-tgm-plugin-activation.php:1956
+#: gavern/classes/class-tgm-plugin-activation.php:399
+#: gavern/classes/class-tgm-plugin-activation.php:3034
 msgid   "Plugin activated successfully."
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1955
+#: gavern/classes/class-tgm-plugin-activation.php:3033
 msgid   "Plugin activation failed."
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1943
-msgid   "Plugin install failed."
-msgstr  ""
-
-#: gavern/classes/class-tgm-plugin-activation.php:1944
-msgid   "Plugin installed successfully."
+#: gavern/classes/class-tgm-plugin-activation.php:402
+#, php-format
+msgid   "Plugin not activated. A higher version of %s is needed for this "
+        "theme. Please update the plugin."
 msgstr  ""
 
 #: gavern/helpers/helpers.features.php:583
@@ -827,18 +844,12 @@ msgstr  ""
 msgid   "Post type:"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1170
-#: gavern/classes/class-tgm-plugin-activation.php:1351
+#: gavern/classes/class-tgm-plugin-activation.php:2197
 msgid   "Pre-Packaged"
 msgstr  ""
 
 #: attachment.php:60
 msgid   "Previous Image"
-msgstr  ""
-
-#: gavern/classes/class-tgm-plugin-activation.php:1167
-#: gavern/classes/class-tgm-plugin-activation.php:1348
-msgid   "Private Repository"
 msgstr  ""
 
 #: gavern/helpers/helpers.layout.php:490
@@ -852,7 +863,7 @@ msgstr  ""
 msgid   "Read more"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1178
+#: gavern/classes/class-tgm-plugin-activation.php:2175
 msgid   "Recommended"
 msgstr  ""
 
@@ -868,8 +879,16 @@ msgstr  ""
 msgid   "Reply"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1178
+#: gavern/classes/class-tgm-plugin-activation.php:2172
 msgid   "Required"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2226
+msgid   "Required Update not Available"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2229
+msgid   "Requires Update"
 msgstr  ""
 
 #: gavern/helpers/helpers.customizer.php:53
@@ -886,16 +905,11 @@ msgid   "Return to %s"
 msgstr  ""
 
 #: gavern/helpers/helpers.features.php:82
-#: gavern/classes/class-tgm-plugin-activation.php:175
+#: gavern/classes/class-tgm-plugin-activation.php:397
 msgid   "Return to Required Plugins Installer"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:532
-#: gavern/classes/class-tgm-plugin-activation.php:2173
-msgid   "Return to the Dashboard"
-msgstr  ""
-
-#: gavern/classes/class-tgm-plugin-activation.php:176
+#: gavern/classes/class-tgm-plugin-activation.php:398
 msgid   "Return to the dashboard"
 msgstr  ""
 
@@ -959,11 +973,6 @@ msgstr  ""
 
 #: gavern/helpers/helpers.features.php:256
 msgid   "Show \"send copy\":"
-msgstr  ""
-
-#: gavern/classes/class-tgm-plugin-activation.php:2070
-#: gavern/classes/class-tgm-plugin-activation.php:2079
-msgid   "Show Details"
 msgstr  ""
 
 #: gavern/helpers/helpers.features.php:213
@@ -1039,11 +1048,8 @@ msgid   "Smartphones"
 msgstr  ""
 
 #: gavern/helpers/helpers.features.php:71
+#: gavern/classes/class-tgm-plugin-activation.php:336
 msgid   "Something went wrong with the plugin API."
-msgstr  ""
-
-#: gavern/classes/class-tgm-plugin-activation.php:164
-msgid   "Something went wrong."
 msgstr  ""
 
 #: template.contact.php:189
@@ -1055,7 +1061,7 @@ msgid   "Sorry, but nothing matched your search criteria. Please try again "
         "with some different keywords."
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1389
+#: gavern/classes/class-tgm-plugin-activation.php:2442
 msgid   "Source"
 msgstr  ""
 
@@ -1063,7 +1069,7 @@ msgstr  ""
 msgid   "Standard fonts"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1391
+#: gavern/classes/class-tgm-plugin-activation.php:2448
 msgid   "Status"
 msgstr  ""
 
@@ -1124,21 +1130,21 @@ msgstr  ""
 msgid   "Template:"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:178
+#: gavern/classes/class-tgm-plugin-activation.php:400
 msgid   "The following plugin was activated successfully:"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:2069
+#: gavern/classes/class-tgm-plugin-activation.php:3374
 msgid   "The installation and activation process is starting. This process "
         "may take a while on some hosts, so please be patient."
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:2078
+#: gavern/classes/class-tgm-plugin-activation.php:3370
 #, php-format
 msgid   "The installation of %1$s failed."
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:2076
+#: gavern/classes/class-tgm-plugin-activation.php:3380
 msgid   "The installation process is starting. This process may take a while "
         "on some hosts, so please be patient."
 msgstr  ""
@@ -1182,16 +1188,25 @@ msgstr  ""
 msgid   "Twitter link:"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1390
+#: gavern/classes/class-tgm-plugin-activation.php:2443
 msgid   "Type"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1941
-msgid   "Unpacking the package&#8230;"
+#: gavern/classes/class-tgm-plugin-activation.php:2614
+msgid   "Update"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2232
+msgid   "Update recommended"
 msgstr  ""
 
 #: gavern/layouts/updates.php:17 gavern/functions.php:83
 msgid   "Updates"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:3367
+#, php-format
+msgid   "Updating Plugin %1$s (%2$d/%3$d)"
 msgstr  ""
 
 #: gavern/form_elements/standard.php:273
@@ -1208,6 +1223,10 @@ msgstr  ""
 
 #: template.login.php:45 layouts/login.php:37
 msgid   "Username"
+msgstr  ""
+
+#: gavern/classes/class-tgm-plugin-activation.php:2447
+msgid   "Version"
 msgstr  ""
 
 #: gavern/layouts/template.php:28
@@ -1268,7 +1287,7 @@ msgstr  ""
 msgid   "WordPress &rsaquo; Error"
 msgstr  ""
 
-#: gavern/classes/class-tgm-plugin-activation.php:1175
+#: gavern/classes/class-tgm-plugin-activation.php:2191
 msgid   "WordPress Repository"
 msgstr  ""
 

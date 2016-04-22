@@ -40,7 +40,7 @@ function gavern_register_required_plugins() {
          array(
              'name'               => 'GK News Show Pro',
              'slug'               => 'gk-nsp',
-             'source'             => 'http://www.gavick.com/upd/gk-nsp.zip', 
+             'source'             => 'https://www.gavick.com/upd/gk-nsp.zip', 
              'required'           => true,              
              'version'            => ''
          ),
@@ -48,7 +48,7 @@ function gavern_register_required_plugins() {
          array(
              'name'               => 'GK Tabs',
              'slug'               => 'gk-tabs',
-             'source'             => 'http://www.gavick.com/upd/gk-tabs.zip', 
+             'source'             => 'https://www.gavick.com/upd/gk-tabs.zip', 
              'required'           => true,              
              'version'            => ''
          )
